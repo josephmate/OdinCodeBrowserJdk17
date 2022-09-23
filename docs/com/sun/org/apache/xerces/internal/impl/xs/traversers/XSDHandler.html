@@ -3116,7 +3116,7 @@
 </tr>
 <tr>
 <td><a id="linenum778" class="linenum-cell" data-linenum="778" href="#linenum778"></a></td>
-<td><pre>                        <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.html#linenum4248">reportSchemaWarning</a>(<span class='string'>&quot;GrammarConflict&quot;</span>, null, null);</pre></td>
+<td><pre>                        <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.html#linenum4244">reportSchemaWarning</a>(<span class='string'>&quot;GrammarConflict&quot;</span>, null, null);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum779" class="linenum-cell" data-linenum="779" href="#linenum779"></a></td>
@@ -8008,15 +8008,15 @@
 </tr>
 <tr>
 <td><a id="linenum2001" class="linenum-cell" data-linenum="2001" href="#linenum2001"></a></td>
-<td><pre>        int commaPos = <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(<span class='string'>&quot;,&quot;</span>);</pre></td>
+<td><pre>        int commaPos = <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(<span class='string'>&quot;,&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2002" class="linenum-cell" data-linenum="2002" href="#linenum2002"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/QName.html#linenum41">QName</a> qNameToFind = new <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/QName.html#linenum41">QName</a>(XMLSymbols.EMPTY_STRING, <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(<a class="variable" href="#linenum2001">commaPos</a>+1),</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/QName.html#linenum41">QName</a> qNameToFind = new <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/QName.html#linenum41">QName</a>(XMLSymbols.EMPTY_STRING, <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2676">substring</a>(<a class="variable" href="#linenum2001">commaPos</a>+1),</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2003" class="linenum-cell" data-linenum="2003" href="#linenum2003"></a></td>
-<td><pre>                <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(<a class="variable" href="#linenum2001">commaPos</a>), (<a class="variable" href="#linenum2001">commaPos</a> == 0)? null : <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(0, <a class="variable" href="#linenum2001">commaPos</a>));</pre></td>
+<td><pre>                <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2676">substring</a>(<a class="variable" href="#linenum2001">commaPos</a>), (<a class="variable" href="#linenum2001">commaPos</a> == 0)? null : <a class="variable" href="#linenum1989">nameToFind</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(0, <a class="variable" href="#linenum2001">commaPos</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2004" class="linenum-cell" data-linenum="2004" href="#linenum2004"></a></td>
@@ -11316,7 +11316,7 @@
 </tr>
 <tr>
 <td><a id="linenum2828" class="linenum-cell" data-linenum="2828" href="#linenum2828"></a></td>
-<td><pre>            <a class="variable" href="#linenum2823">dstDecl</a> = <a class="variable" href="#linenum2820">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1009">getGlobalElementDecl</a>(<a class="variable" href="#linenum2823">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSElementDecl.html#linenum208">getName</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum2823">dstDecl</a> = <a class="variable" href="#linenum2820">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1005">getGlobalElementDecl</a>(<a class="variable" href="#linenum2823">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSElementDecl.html#linenum208">getName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2829" class="linenum-cell" data-linenum="2829" href="#linenum2829"></a></td>
@@ -11376,7 +11376,7 @@
 </tr>
 <tr>
 <td><a id="linenum2843" class="linenum-cell" data-linenum="2843" href="#linenum2843"></a></td>
-<td><pre>            final int index = <a class="variable" href="#linenum2842">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(',');</pre></td>
+<td><pre>            final int index = <a class="variable" href="#linenum2842">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(',');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2844" class="linenum-cell" data-linenum="2844" href="#linenum2844"></a></td>
@@ -11468,7 +11468,7 @@
 </tr>
 <tr>
 <td><a id="linenum2866" class="linenum-cell" data-linenum="2866" href="#linenum2866"></a></td>
-<td><pre>            <a class="variable" href="#linenum2861">dstDecl</a> = <a class="variable" href="#linenum2858">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum987">getGlobalAttributeDecl</a>(<a class="variable" href="#linenum2861">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl.html#linenum110">getName</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum2861">dstDecl</a> = <a class="variable" href="#linenum2858">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum983">getGlobalAttributeDecl</a>(<a class="variable" href="#linenum2861">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl.html#linenum110">getName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2867" class="linenum-cell" data-linenum="2867" href="#linenum2867"></a></td>
@@ -11528,7 +11528,7 @@
 </tr>
 <tr>
 <td><a id="linenum2881" class="linenum-cell" data-linenum="2881" href="#linenum2881"></a></td>
-<td><pre>            final int index = <a class="variable" href="#linenum2880">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(',');</pre></td>
+<td><pre>            final int index = <a class="variable" href="#linenum2880">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(',');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2882" class="linenum-cell" data-linenum="2882" href="#linenum2882"></a></td>
@@ -11620,7 +11620,7 @@
 </tr>
 <tr>
 <td><a id="linenum2904" class="linenum-cell" data-linenum="2904" href="#linenum2904"></a></td>
-<td><pre>            <a class="variable" href="#linenum2899">dstDecl</a> = <a class="variable" href="#linenum2896">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum998">getGlobalAttributeGroupDecl</a>(<a class="variable" href="#linenum2899">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl.html#linenum347">getName</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum2899">dstDecl</a> = <a class="variable" href="#linenum2896">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum994">getGlobalAttributeGroupDecl</a>(<a class="variable" href="#linenum2899">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl.html#linenum347">getName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2905" class="linenum-cell" data-linenum="2905" href="#linenum2905"></a></td>
@@ -11680,7 +11680,7 @@
 </tr>
 <tr>
 <td><a id="linenum2919" class="linenum-cell" data-linenum="2919" href="#linenum2919"></a></td>
-<td><pre>            final int index = <a class="variable" href="#linenum2918">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(',');</pre></td>
+<td><pre>            final int index = <a class="variable" href="#linenum2918">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(',');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2920" class="linenum-cell" data-linenum="2920" href="#linenum2920"></a></td>
@@ -11772,7 +11772,7 @@
 </tr>
 <tr>
 <td><a id="linenum2942" class="linenum-cell" data-linenum="2942" href="#linenum2942"></a></td>
-<td><pre>            <a class="variable" href="#linenum2937">dstDecl</a> = <a class="variable" href="#linenum2934">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1031">getGlobalNotationDecl</a>(<a class="variable" href="#linenum2937">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl.html#linenum68">getName</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum2937">dstDecl</a> = <a class="variable" href="#linenum2934">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1027">getGlobalNotationDecl</a>(<a class="variable" href="#linenum2937">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl.html#linenum68">getName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2943" class="linenum-cell" data-linenum="2943" href="#linenum2943"></a></td>
@@ -11832,7 +11832,7 @@
 </tr>
 <tr>
 <td><a id="linenum2957" class="linenum-cell" data-linenum="2957" href="#linenum2957"></a></td>
-<td><pre>            final int index = <a class="variable" href="#linenum2956">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(',');</pre></td>
+<td><pre>            final int index = <a class="variable" href="#linenum2956">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(',');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2958" class="linenum-cell" data-linenum="2958" href="#linenum2958"></a></td>
@@ -11924,7 +11924,7 @@
 </tr>
 <tr>
 <td><a id="linenum2980" class="linenum-cell" data-linenum="2980" href="#linenum2980"></a></td>
-<td><pre>            <a class="variable" href="#linenum2975">dstDecl</a> = <a class="variable" href="#linenum2972">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1020">getGlobalGroupDecl</a>(<a class="variable" href="#linenum2975">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl.html#linenum66">getName</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum2975">dstDecl</a> = <a class="variable" href="#linenum2972">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1016">getGlobalGroupDecl</a>(<a class="variable" href="#linenum2975">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl.html#linenum66">getName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2981" class="linenum-cell" data-linenum="2981" href="#linenum2981"></a></td>
@@ -11984,7 +11984,7 @@
 </tr>
 <tr>
 <td><a id="linenum2995" class="linenum-cell" data-linenum="2995" href="#linenum2995"></a></td>
-<td><pre>            final int index = <a class="variable" href="#linenum2994">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(',');</pre></td>
+<td><pre>            final int index = <a class="variable" href="#linenum2994">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(',');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum2996" class="linenum-cell" data-linenum="2996" href="#linenum2996"></a></td>
@@ -12076,7 +12076,7 @@
 </tr>
 <tr>
 <td><a id="linenum3018" class="linenum-cell" data-linenum="3018" href="#linenum3018"></a></td>
-<td><pre>            <a class="variable" href="#linenum3013">dstDecl</a> = <a class="variable" href="#linenum3010">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1042">getGlobalTypeDecl</a>(<a class="variable" href="#linenum3013">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xs/XSObject.html#linenum44">getName</a>());</pre></td>
+<td><pre>            <a class="variable" href="#linenum3013">dstDecl</a> = <a class="variable" href="#linenum3010">dstGrammar</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum1038">getGlobalTypeDecl</a>(<a class="variable" href="#linenum3013">srcDecl</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xs/XSObject.html#linenum44">getName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3019" class="linenum-cell" data-linenum="3019" href="#linenum3019"></a></td>
@@ -12136,7 +12136,7 @@
 </tr>
 <tr>
 <td><a id="linenum3033" class="linenum-cell" data-linenum="3033" href="#linenum3033"></a></td>
-<td><pre>            final int index = <a class="variable" href="#linenum3032">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(',');</pre></td>
+<td><pre>            final int index = <a class="variable" href="#linenum3032">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(',');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3034" class="linenum-cell" data-linenum="3034" href="#linenum3034"></a></td>
@@ -13072,7 +13072,7 @@
 </tr>
 <tr>
 <td><a id="linenum3267" class="linenum-cell" data-linenum="3267" href="#linenum3267"></a></td>
-<td><pre>                    <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum924">addGlobalTypeDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xs/XSTypeDefinition.html#linenum27">XSTypeDefinition</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum914">addGlobalTypeDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xs/XSTypeDefinition.html#linenum27">XSTypeDefinition</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3268" class="linenum-cell" data-linenum="3268" href="#linenum3268"></a></td>
@@ -13116,7 +13116,7 @@
 </tr>
 <tr>
 <td><a id="linenum3278" class="linenum-cell" data-linenum="3278" href="#linenum3278"></a></td>
-<td><pre>                    <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum831">addGlobalAttributeDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl.html#linenum46">XSAttributeDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum826">addGlobalAttributeDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeDecl.html#linenum46">XSAttributeDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3279" class="linenum-cell" data-linenum="3279" href="#linenum3279"></a></td>
@@ -13156,7 +13156,7 @@
 </tr>
 <tr>
 <td><a id="linenum3288" class="linenum-cell" data-linenum="3288" href="#linenum3288"></a></td>
-<td><pre>                <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum846">addGlobalAttributeGroupDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl.html#linenum44">XSAttributeGroupDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum841">addGlobalAttributeGroupDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSAttributeGroupDecl.html#linenum44">XSAttributeGroupDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3289" class="linenum-cell" data-linenum="3289" href="#linenum3289"></a></td>
@@ -13204,7 +13204,7 @@
 </tr>
 <tr>
 <td><a id="linenum3300" class="linenum-cell" data-linenum="3300" href="#linenum3300"></a></td>
-<td><pre>                    <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum874">addGlobalElementDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSElementDecl.html#linenum48">XSElementDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum869">addGlobalElementDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSElementDecl.html#linenum48">XSElementDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3301" class="linenum-cell" data-linenum="3301" href="#linenum3301"></a></td>
@@ -13244,7 +13244,7 @@
 </tr>
 <tr>
 <td><a id="linenum3310" class="linenum-cell" data-linenum="3310" href="#linenum3310"></a></td>
-<td><pre>                <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum889">addGlobalGroupDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl.html#linenum41">XSGroupDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum884">addGlobalGroupDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSGroupDecl.html#linenum41">XSGroupDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3311" class="linenum-cell" data-linenum="3311" href="#linenum3311"></a></td>
@@ -13280,7 +13280,7 @@
 </tr>
 <tr>
 <td><a id="linenum3319" class="linenum-cell" data-linenum="3319" href="#linenum3319"></a></td>
-<td><pre>                <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum904">addGlobalNotationDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl.html#linenum39">XSNotationDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum3258">sg</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/SchemaGrammar.html#linenum899">addGlobalNotationDecl</a>((<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/XSNotationDecl.html#linenum39">XSNotationDecl</a>) <a class="variable" href="#linenum3254">component</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3320" class="linenum-cell" data-linenum="3320" href="#linenum3320"></a></td>
@@ -13812,7 +13812,7 @@
 </tr>
 <tr>
 <td><a id="linenum3452" class="linenum-cell" data-linenum="3452" href="#linenum3452"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.html#linenum4240">reportSchemaError</a>(<span class='string'>&quot;sch-props-correct.2&quot;</span>, new <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Object.html#linenum38">Object</a> [] {<a class="variable" href="#linenum3449">qName</a>}, null);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.html#linenum4236">reportSchemaError</a>(<span class='string'>&quot;sch-props-correct.2&quot;</span>, new <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Object.html#linenum38">Object</a> [] {<a class="variable" href="#linenum3449">qName</a>}, null);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3453" class="linenum-cell" data-linenum="3453" href="#linenum3453"></a></td>
@@ -14660,7 +14660,7 @@
 </tr>
 <tr>
 <td><a id="linenum3664" class="linenum-cell" data-linenum="3664" href="#linenum3664"></a></td>
-<td><pre>        <a class="variable" href="#linenum257">fAccessExternalDTD</a> = <a class="variable" href="#linenum417">fSecurityPropertyMgr</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager.html#linenum181">getValue</a>(</pre></td>
+<td><pre>        <a class="variable" href="#linenum257">fAccessExternalDTD</a> = <a class="variable" href="#linenum417">fSecurityPropertyMgr</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager.html#linenum166">getValue</a>(</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3665" class="linenum-cell" data-linenum="3665" href="#linenum3665"></a></td>
@@ -14668,7 +14668,7 @@
 </tr>
 <tr>
 <td><a id="linenum3666" class="linenum-cell" data-linenum="3666" href="#linenum3666"></a></td>
-<td><pre>        <a class="variable" href="#linenum256">fAccessExternalSchema</a> = <a class="variable" href="#linenum417">fSecurityPropertyMgr</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager.html#linenum181">getValue</a>(</pre></td>
+<td><pre>        <a class="variable" href="#linenum256">fAccessExternalSchema</a> = <a class="variable" href="#linenum417">fSecurityPropertyMgr</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/utils/XMLSecurityPropertyManager.html#linenum166">getValue</a>(</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3667" class="linenum-cell" data-linenum="3667" href="#linenum3667"></a></td>
@@ -14680,7 +14680,7 @@
 </tr>
 <tr>
 <td><a id="linenum3669" class="linenum-cell" data-linenum="3669" href="#linenum3669"></a></td>
-<td><pre>        <a class="variable" href="#linenum426">fOverrideDefaultParser</a> = <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum64">getFeature</a>(JdkConstants.OVERRIDE_PARSER);</pre></td>
+<td><pre>        <a class="variable" href="#linenum426">fOverrideDefaultParser</a> = <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum54">getFeature</a>(JdkConstants.OVERRIDE_PARSER);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3670" class="linenum-cell" data-linenum="3670" href="#linenum3670"></a></td>
@@ -14696,7 +14696,7 @@
 </tr>
 <tr>
 <td><a id="linenum3673" class="linenum-cell" data-linenum="3673" href="#linenum3673"></a></td>
-<td><pre>        <a class="variable" href="#linenum420">fUseCatalog</a> = <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum64">getFeature</a>(XMLConstants.USE_CATALOG);</pre></td>
+<td><pre>        <a class="variable" href="#linenum420">fUseCatalog</a> = <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum54">getFeature</a>(XMLConstants.USE_CATALOG);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3674" class="linenum-cell" data-linenum="3674" href="#linenum3674"></a></td>
@@ -14712,19 +14712,19 @@
 </tr>
 <tr>
 <td><a id="linenum3677" class="linenum-cell" data-linenum="3677" href="#linenum3677"></a></td>
-<td><pre>        <a class="variable" href="#linenum421">fCatalogFile</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(JdkXmlUtils.CATALOG_FILES);</pre></td>
+<td><pre>        <a class="variable" href="#linenum421">fCatalogFile</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(JdkXmlUtils.CATALOG_FILES);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3678" class="linenum-cell" data-linenum="3678" href="#linenum3678"></a></td>
-<td><pre>        <a class="variable" href="#linenum422">fDefer</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(JdkXmlUtils.CATALOG_DEFER);</pre></td>
+<td><pre>        <a class="variable" href="#linenum422">fDefer</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(JdkXmlUtils.CATALOG_DEFER);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3679" class="linenum-cell" data-linenum="3679" href="#linenum3679"></a></td>
-<td><pre>        <a class="variable" href="#linenum423">fPrefer</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(JdkXmlUtils.CATALOG_PREFER);</pre></td>
+<td><pre>        <a class="variable" href="#linenum423">fPrefer</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(JdkXmlUtils.CATALOG_PREFER);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3680" class="linenum-cell" data-linenum="3680" href="#linenum3680"></a></td>
-<td><pre>        <a class="variable" href="#linenum424">fResolve</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(JdkXmlUtils.CATALOG_RESOLVE);</pre></td>
+<td><pre>        <a class="variable" href="#linenum424">fResolve</a> = (<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a>)<a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(JdkXmlUtils.CATALOG_RESOLVE);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3681" class="linenum-cell" data-linenum="3681" href="#linenum3681"></a></td>
@@ -14740,7 +14740,7 @@
 </tr>
 <tr>
 <td><a id="linenum3684" class="linenum-cell" data-linenum="3684" href="#linenum3684"></a></td>
-<td><pre>                    <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(f.getPropertyName()));</pre></td>
+<td><pre>                    <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(f.getPropertyName()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3685" class="linenum-cell" data-linenum="3685" href="#linenum3685"></a></td>
@@ -14748,7 +14748,7 @@
 </tr>
 <tr>
 <td><a id="linenum3686" class="linenum-cell" data-linenum="3686" href="#linenum3686"></a></td>
-<td><pre>                    <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(f.getPropertyName()));</pre></td>
+<td><pre>                    <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(f.getPropertyName()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3687" class="linenum-cell" data-linenum="3687" href="#linenum3687"></a></td>
@@ -14764,7 +14764,7 @@
 </tr>
 <tr>
 <td><a id="linenum3690" class="linenum-cell" data-linenum="3690" href="#linenum3690"></a></td>
-<td><pre>                <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(JdkConstants.CDATA_CHUNK_SIZE));</pre></td>
+<td><pre>                <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(JdkConstants.CDATA_CHUNK_SIZE));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3691" class="linenum-cell" data-linenum="3691" href="#linenum3691"></a></td>
@@ -14772,7 +14772,7 @@
 </tr>
 <tr>
 <td><a id="linenum3692" class="linenum-cell" data-linenum="3692" href="#linenum3692"></a></td>
-<td><pre>                <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum84">getProperty</a>(JdkConstants.CDATA_CHUNK_SIZE));</pre></td>
+<td><pre>                <a class="variable" href="#linenum3575">componentManager</a>.<a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/xni/parser/XMLComponentManager.html#linenum73">getProperty</a>(JdkConstants.CDATA_CHUNK_SIZE));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3693" class="linenum-cell" data-linenum="3693" href="#linenum3693"></a></td>
@@ -15332,7 +15332,7 @@
 </tr>
 <tr>
 <td><a id="linenum3832" class="linenum-cell" data-linenum="3832" href="#linenum3832"></a></td>
-<td><pre>                <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> newName = <a class="variable" href="#linenum3791">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(<a class="variable" href="#linenum3791">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2627">lastIndexOf</a>(',')+1)+<a class="variable" href="#linenum247">REDEF_IDENTIFIER</a>;</pre></td>
+<td><pre>                <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> newName = <a class="variable" href="#linenum3791">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2676">substring</a>(<a class="variable" href="#linenum3791">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2445">lastIndexOf</a>(',')+1)+<a class="variable" href="#linenum247">REDEF_IDENTIFIER</a>;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3833" class="linenum-cell" data-linenum="3833" href="#linenum3833"></a></td>
@@ -15552,7 +15552,7 @@
 </tr>
 <tr>
 <td><a id="linenum3887" class="linenum-cell" data-linenum="3887" href="#linenum3887"></a></td>
-<td><pre>        int namespaceEnd = <a class="variable" href="#linenum3886">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(',');</pre></td>
+<td><pre>        int namespaceEnd = <a class="variable" href="#linenum3886">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(',');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3888" class="linenum-cell" data-linenum="3888" href="#linenum3888"></a></td>
@@ -15572,7 +15572,7 @@
 </tr>
 <tr>
 <td><a id="linenum3892" class="linenum-cell" data-linenum="3892" href="#linenum3892"></a></td>
-<td><pre>            <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Object.html#linenum38">Object</a> obj = <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.html#linenum1891">getGlobalDeclFromGrammar</a>(<a class="variable" href="#linenum3889">grammar</a>, <a class="variable" href="#linenum3886">declType</a>, <a class="variable" href="#linenum3886">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(<a class="variable" href="#linenum3887">namespaceEnd</a> + 1));</pre></td>
+<td><pre>            <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Object.html#linenum38">Object</a> obj = <a class="type" href="/OdinCodeBrowserJdk17/com/sun/org/apache/xerces/internal/impl/xs/traversers/XSDHandler.html#linenum1891">getGlobalDeclFromGrammar</a>(<a class="variable" href="#linenum3889">grammar</a>, <a class="variable" href="#linenum3886">declType</a>, <a class="variable" href="#linenum3886">qName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2676">substring</a>(<a class="variable" href="#linenum3887">namespaceEnd</a> + 1));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum3893" class="linenum-cell" data-linenum="3893" href="#linenum3893"></a></td>
@@ -16264,7 +16264,7 @@
 </tr>
 <tr>
 <td><a id="linenum4065" class="linenum-cell" data-linenum="4065" href="#linenum4065"></a></td>
-<td><pre>        int colonPtr = <a class="variable" href="#linenum4063">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(':');</pre></td>
+<td><pre>        int colonPtr = <a class="variable" href="#linenum4063">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(':');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum4066" class="linenum-cell" data-linenum="4066" href="#linenum4066"></a></td>
@@ -16284,7 +16284,7 @@
 </tr>
 <tr>
 <td><a id="linenum4070" class="linenum-cell" data-linenum="4070" href="#linenum4070"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> localpart = (<a class="variable" href="#linenum4065">colonPtr</a> == 0)?<a class="variable" href="#linenum4063">name</a>:<a class="variable" href="#linenum4063">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(<a class="variable" href="#linenum4065">colonPtr</a>+1);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> localpart = (<a class="variable" href="#linenum4065">colonPtr</a> == 0)?<a class="variable" href="#linenum4063">name</a>:<a class="variable" href="#linenum4063">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2676">substring</a>(<a class="variable" href="#linenum4065">colonPtr</a>+1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum4071" class="linenum-cell" data-linenum="4071" href="#linenum4071"></a></td>
@@ -16400,7 +16400,7 @@
 </tr>
 <tr>
 <td><a id="linenum4099" class="linenum-cell" data-linenum="4099" href="#linenum4099"></a></td>
-<td><pre>                        int colonptr = <a class="variable" href="#linenum4094">ref</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>(<span class='string'>&quot;:&quot;</span>);</pre></td>
+<td><pre>                        int colonptr = <a class="variable" href="#linenum4094">ref</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2374">indexOf</a>(<span class='string'>&quot;:&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum4100" class="linenum-cell" data-linenum="4100" href="#linenum4100"></a></td>

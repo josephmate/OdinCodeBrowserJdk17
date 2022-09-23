@@ -344,7 +344,7 @@
 </tr>
 <tr>
 <td><a id="linenum85" class="linenum-cell" data-linenum="85" href="#linenum85"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum261">getType</a>(<a class="variable" href="#linenum84">descriptor</a>)).getDescriptor();</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum123">mapType</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum261">getType</a>(<a class="variable" href="#linenum84">descriptor</a>)).getDescriptor();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum86" class="linenum-cell" data-linenum="86" href="#linenum86"></a></td>
@@ -416,7 +416,7 @@
 </tr>
 <tr>
 <td><a id="linenum103" class="linenum-cell" data-linenum="103" href="#linenum103"></a></td>
-<td><pre>                    <a class="variable" href="#linenum101">remappedDescriptor</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>('[');</pre></td>
+<td><pre>                    <a class="variable" href="#linenum101">remappedDescriptor</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>('[');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum104" class="linenum-cell" data-linenum="104" href="#linenum104"></a></td>
@@ -424,11 +424,11 @@
 </tr>
 <tr>
 <td><a id="linenum105" class="linenum-cell" data-linenum="105" href="#linenum105"></a></td>
-<td><pre>                <a class="variable" href="#linenum101">remappedDescriptor</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>(<a class="variable" href="#linenum98">type</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum271">getElementType</a>()).getDescriptor());</pre></td>
+<td><pre>                <a class="variable" href="#linenum101">remappedDescriptor</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum123">mapType</a>(<a class="variable" href="#linenum98">type</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum271">getElementType</a>()).getDescriptor());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum106" class="linenum-cell" data-linenum="106" href="#linenum106"></a></td>
-<td><pre>                return Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum261">getType</a>(<a class="variable" href="#linenum101">remappedDescriptor</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum445">toString</a>());</pre></td>
+<td><pre>                return Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum207">getType</a>(<a class="variable" href="#linenum101">remappedDescriptor</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum445">toString</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum107" class="linenum-cell" data-linenum="107" href="#linenum107"></a></td>
@@ -436,7 +436,7 @@
 </tr>
 <tr>
 <td><a id="linenum108" class="linenum-cell" data-linenum="108" href="#linenum108"></a></td>
-<td><pre>                <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> remappedInternalName = <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum375">map</a>(<a class="variable" href="#linenum98">type</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum540">getInternalName</a>());</pre></td>
+<td><pre>                <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> remappedInternalName = <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum375">map</a>(<a class="variable" href="#linenum98">type</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum529">getInternalName</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum109" class="linenum-cell" data-linenum="109" href="#linenum109"></a></td>
@@ -448,7 +448,7 @@
 </tr>
 <tr>
 <td><a id="linenum111" class="linenum-cell" data-linenum="111" href="#linenum111"></a></td>
-<td><pre>                return Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum305">getMethodType</a>(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum159">mapMethodDesc</a>(<a class="variable" href="#linenum98">type</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum565">getDescriptor</a>()));</pre></td>
+<td><pre>                return Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum294">getMethodType</a>(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum159">mapMethodDesc</a>(<a class="variable" href="#linenum98">type</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum549">getDescriptor</a>()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum112" class="linenum-cell" data-linenum="112" href="#linenum112"></a></td>
@@ -512,7 +512,7 @@
 </tr>
 <tr>
 <td><a id="linenum127" class="linenum-cell" data-linenum="127" href="#linenum127"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum282">getObjectType</a>(<a class="variable" href="#linenum123">internalName</a>)).getInternalName();</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum123">mapType</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum282">getObjectType</a>(<a class="variable" href="#linenum123">internalName</a>)).getInternalName();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum128" class="linenum-cell" data-linenum="128" href="#linenum128"></a></td>
@@ -668,7 +668,7 @@
 </tr>
 <tr>
 <td><a id="linenum166" class="linenum-cell" data-linenum="166" href="#linenum166"></a></td>
-<td><pre>            <a class="variable" href="#linenum164">stringBuilder</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>(argumentType).getDescriptor());</pre></td>
+<td><pre>            <a class="variable" href="#linenum164">stringBuilder</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum123">mapType</a>(argumentType).getDescriptor());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum167" class="linenum-cell" data-linenum="167" href="#linenum167"></a></td>
@@ -684,7 +684,7 @@
 </tr>
 <tr>
 <td><a id="linenum170" class="linenum-cell" data-linenum="170" href="#linenum170"></a></td>
-<td><pre>            <a class="variable" href="#linenum164">stringBuilder</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<span class='string'>&quot;)V&quot;</span>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum164">stringBuilder</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<span class='string'>&quot;)V&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum171" class="linenum-cell" data-linenum="171" href="#linenum171"></a></td>
@@ -692,7 +692,7 @@
 </tr>
 <tr>
 <td><a id="linenum172" class="linenum-cell" data-linenum="172" href="#linenum172"></a></td>
-<td><pre>            <a class="variable" href="#linenum164">stringBuilder</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(')').append(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>(<a class="variable" href="#linenum168">returnType</a>).getDescriptor());</pre></td>
+<td><pre>            <a class="variable" href="#linenum164">stringBuilder</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(')').append(<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>(<a class="variable" href="#linenum168">returnType</a>).getDescriptor());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum173" class="linenum-cell" data-linenum="173" href="#linenum173"></a></td>
@@ -760,7 +760,7 @@
 </tr>
 <tr>
 <td><a id="linenum189" class="linenum-cell" data-linenum="189" href="#linenum189"></a></td>
-<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>((<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum71">Type</a>) <a class="variable" href="#linenum187">value</a>);</pre></td>
+<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum123">mapType</a>((<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum71">Type</a>) <a class="variable" href="#linenum187">value</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum190" class="linenum-cell" data-linenum="190" href="#linenum190"></a></td>
@@ -784,7 +784,7 @@
 </tr>
 <tr>
 <td><a id="linenum195" class="linenum-cell" data-linenum="195" href="#linenum195"></a></td>
-<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum98">mapType</a>(<a class="variable" href="#linenum192">handle</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Handle.html#linenum153">getOwner</a>()),</pre></td>
+<td><pre>                    <a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/commons/Remapper.html#linenum123">mapType</a>(<a class="variable" href="#linenum192">handle</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Handle.html#linenum153">getOwner</a>()),</pre></td>
 </tr>
 <tr>
 <td><a id="linenum196" class="linenum-cell" data-linenum="196" href="#linenum196"></a></td>
@@ -1136,7 +1136,7 @@
 </tr>
 <tr>
 <td><a id="linenum283" class="linenum-cell" data-linenum="283" href="#linenum283"></a></td>
-<td><pre>            int index = <a class="variable" href="#linenum281">remappedInnerName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2627">lastIndexOf</a>('$') + 1;</pre></td>
+<td><pre>            int index = <a class="variable" href="#linenum281">remappedInnerName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2445">lastIndexOf</a>('$') + 1;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum284" class="linenum-cell" data-linenum="284" href="#linenum284"></a></td>
@@ -1144,7 +1144,7 @@
 </tr>
 <tr>
 <td><a id="linenum285" class="linenum-cell" data-linenum="285" href="#linenum285"></a></td>
-<td><pre>                    &amp;&amp; Character.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Character.html#linenum9712">isDigit</a>(<a class="variable" href="#linenum281">remappedInnerName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum1510">charAt</a>(<a class="variable" href="#linenum283">index</a>))) {</pre></td>
+<td><pre>                    &amp;&amp; Character.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Character.html#linenum9678">isDigit</a>(<a class="variable" href="#linenum281">remappedInnerName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum1510">charAt</a>(<a class="variable" href="#linenum283">index</a>))) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum286" class="linenum-cell" data-linenum="286" href="#linenum286"></a></td>
@@ -1156,7 +1156,7 @@
 </tr>
 <tr>
 <td><a id="linenum288" class="linenum-cell" data-linenum="288" href="#linenum288"></a></td>
-<td><pre>            return <a class="variable" href="#linenum281">remappedInnerName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(<a class="variable" href="#linenum283">index</a>);</pre></td>
+<td><pre>            return <a class="variable" href="#linenum281">remappedInnerName</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2676">substring</a>(<a class="variable" href="#linenum283">index</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum289" class="linenum-cell" data-linenum="289" href="#linenum289"></a></td>

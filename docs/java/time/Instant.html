@@ -1324,11 +1324,11 @@
 </tr>
 <tr>
 <td><a id="linenum330" class="linenum-cell" data-linenum="330" href="#linenum330"></a></td>
-<td><pre>        long secs = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="variable" href="#linenum329">epochSecond</a>, Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1287">floorDiv</a>(<a class="variable" href="#linenum329">nanoAdjustment</a>, NANOS_PER_SECOND));</pre></td>
+<td><pre>        long secs = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="variable" href="#linenum329">epochSecond</a>, Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1224">floorDiv</a>(<a class="variable" href="#linenum329">nanoAdjustment</a>, NANOS_PER_SECOND));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum331" class="linenum-cell" data-linenum="331" href="#linenum331"></a></td>
-<td><pre>        int nos = (int)Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1399">floorMod</a>(<a class="variable" href="#linenum329">nanoAdjustment</a>, NANOS_PER_SECOND);</pre></td>
+<td><pre>        int nos = (int)Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1341">floorMod</a>(<a class="variable" href="#linenum329">nanoAdjustment</a>, NANOS_PER_SECOND);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum332" class="linenum-cell" data-linenum="332" href="#linenum332"></a></td>
@@ -1388,11 +1388,11 @@
 </tr>
 <tr>
 <td><a id="linenum346" class="linenum-cell" data-linenum="346" href="#linenum346"></a></td>
-<td><pre>        long secs = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1287">floorDiv</a>(<a class="variable" href="#linenum345">epochMilli</a>, 1000);</pre></td>
+<td><pre>        long secs = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1224">floorDiv</a>(<a class="variable" href="#linenum345">epochMilli</a>, 1000);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum347" class="linenum-cell" data-linenum="347" href="#linenum347"></a></td>
-<td><pre>        int mos = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1399">floorMod</a>(<a class="variable" href="#linenum345">epochMilli</a>, 1000);</pre></td>
+<td><pre>        int mos = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1341">floorMod</a>(<a class="variable" href="#linenum345">epochMilli</a>, 1000);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum348" class="linenum-cell" data-linenum="348" href="#linenum348"></a></td>
@@ -3048,7 +3048,7 @@
 </tr>
 <tr>
 <td><a id="linenum761" class="linenum-cell" data-linenum="761" href="#linenum761"></a></td>
-<td><pre>        long result = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1287">floorDiv</a>(<a class="variable" href="#linenum760">nod</a>, <a class="variable" href="#linenum756">dur</a>) * <a class="variable" href="#linenum756">dur</a>;</pre></td>
+<td><pre>        long result = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1224">floorDiv</a>(<a class="variable" href="#linenum760">nod</a>, <a class="variable" href="#linenum756">dur</a>) * <a class="variable" href="#linenum756">dur</a>;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum762" class="linenum-cell" data-linenum="762" href="#linenum762"></a></td>
@@ -3420,7 +3420,7 @@
 </tr>
 <tr>
 <td><a id="linenum854" class="linenum-cell" data-linenum="854" href="#linenum854"></a></td>
-<td><pre>                case MICROS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum921">plus</a>(<a class="variable" href="#linenum850">amountToAdd</a> / 1000_000, (<a class="variable" href="#linenum850">amountToAdd</a> % 1000_000) * 1000);</pre></td>
+<td><pre>                case MICROS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum849">plus</a>(<a class="variable" href="#linenum850">amountToAdd</a> / 1000_000, (<a class="variable" href="#linenum850">amountToAdd</a> % 1000_000) * 1000);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum855" class="linenum-cell" data-linenum="855" href="#linenum855"></a></td>
@@ -3432,19 +3432,19 @@
 </tr>
 <tr>
 <td><a id="linenum857" class="linenum-cell" data-linenum="857" href="#linenum857"></a></td>
-<td><pre>                case MINUTES: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_MINUTE));</pre></td>
+<td><pre>                case MINUTES: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_MINUTE));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum858" class="linenum-cell" data-linenum="858" href="#linenum858"></a></td>
-<td><pre>                case HOURS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_HOUR));</pre></td>
+<td><pre>                case HOURS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_HOUR));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum859" class="linenum-cell" data-linenum="859" href="#linenum859"></a></td>
-<td><pre>                case HALF_DAYS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_DAY / 2));</pre></td>
+<td><pre>                case HALF_DAYS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_DAY / 2));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum860" class="linenum-cell" data-linenum="860" href="#linenum860"></a></td>
-<td><pre>                case DAYS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_DAY));</pre></td>
+<td><pre>                case DAYS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum878">plusSeconds</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum850">amountToAdd</a>, SECONDS_PER_DAY));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum861" class="linenum-cell" data-linenum="861" href="#linenum861"></a></td>
@@ -3520,7 +3520,7 @@
 </tr>
 <tr>
 <td><a id="linenum879" class="linenum-cell" data-linenum="879" href="#linenum879"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum921">plus</a>(<a class="variable" href="#linenum878">secondsToAdd</a>, 0);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum849">plus</a>(<a class="variable" href="#linenum878">secondsToAdd</a>, 0);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum880" class="linenum-cell" data-linenum="880" href="#linenum880"></a></td>
@@ -3576,7 +3576,7 @@
 </tr>
 <tr>
 <td><a id="linenum893" class="linenum-cell" data-linenum="893" href="#linenum893"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum921">plus</a>(<a class="variable" href="#linenum892">millisToAdd</a> / 1000, (<a class="variable" href="#linenum892">millisToAdd</a> % 1000) * 1000_000);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum849">plus</a>(<a class="variable" href="#linenum892">millisToAdd</a> / 1000, (<a class="variable" href="#linenum892">millisToAdd</a> % 1000) * 1000_000);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum894" class="linenum-cell" data-linenum="894" href="#linenum894"></a></td>
@@ -3632,7 +3632,7 @@
 </tr>
 <tr>
 <td><a id="linenum907" class="linenum-cell" data-linenum="907" href="#linenum907"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum921">plus</a>(0, <a class="variable" href="#linenum906">nanosToAdd</a>);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum849">plus</a>(0, <a class="variable" href="#linenum906">nanosToAdd</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum908" class="linenum-cell" data-linenum="908" href="#linenum908"></a></td>
@@ -3704,11 +3704,11 @@
 </tr>
 <tr>
 <td><a id="linenum925" class="linenum-cell" data-linenum="925" href="#linenum925"></a></td>
-<td><pre>        long epochSec = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="variable" href="#linenum408">seconds</a>, <a class="variable" href="#linenum921">secondsToAdd</a>);</pre></td>
+<td><pre>        long epochSec = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="variable" href="#linenum408">seconds</a>, <a class="variable" href="#linenum921">secondsToAdd</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum926" class="linenum-cell" data-linenum="926" href="#linenum926"></a></td>
-<td><pre>        <a class="variable" href="#linenum925">epochSec</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="variable" href="#linenum925">epochSec</a>, <a class="variable" href="#linenum921">nanosToAdd</a> / NANOS_PER_SECOND);</pre></td>
+<td><pre>        <a class="variable" href="#linenum925">epochSec</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="variable" href="#linenum925">epochSec</a>, <a class="variable" href="#linenum921">nanosToAdd</a> / NANOS_PER_SECOND);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum927" class="linenum-cell" data-linenum="927" href="#linenum927"></a></td>
@@ -4600,7 +4600,7 @@
 </tr>
 <tr>
 <td><a id="linenum1149" class="linenum-cell" data-linenum="1149" href="#linenum1149"></a></td>
-<td><pre>                case MILLIS: return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum939">subtractExact</a>(<a class="variable" href="#linenum1144">end</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum1230">toEpochMilli</a>(), <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum1230">toEpochMilli</a>());</pre></td>
+<td><pre>                case MILLIS: return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum918">subtractExact</a>(<a class="variable" href="#linenum1144">end</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum1230">toEpochMilli</a>(), <a class="type" href="/OdinCodeBrowserJdk17/java/time/Instant.html#linenum1230">toEpochMilli</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1150" class="linenum-cell" data-linenum="1150" href="#linenum1150"></a></td>
@@ -4652,15 +4652,15 @@
 </tr>
 <tr>
 <td><a id="linenum1162" class="linenum-cell" data-linenum="1162" href="#linenum1162"></a></td>
-<td><pre>        long secsDiff = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum939">subtractExact</a>(<a class="variable" href="#linenum1161">end</a>.seconds, <a class="variable" href="#linenum408">seconds</a>);</pre></td>
+<td><pre>        long secsDiff = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum918">subtractExact</a>(<a class="variable" href="#linenum1161">end</a>.seconds, <a class="variable" href="#linenum408">seconds</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1163" class="linenum-cell" data-linenum="1163" href="#linenum1163"></a></td>
-<td><pre>        long totalNanos = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum1162">secsDiff</a>, NANOS_PER_SECOND);</pre></td>
+<td><pre>        long totalNanos = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum1162">secsDiff</a>, NANOS_PER_SECOND);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1164" class="linenum-cell" data-linenum="1164" href="#linenum1164"></a></td>
-<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="variable" href="#linenum1163">totalNanos</a>, <a class="variable" href="#linenum1161">end</a>.nanos - <a class="variable" href="#linenum425">nanos</a>);</pre></td>
+<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="variable" href="#linenum1163">totalNanos</a>, <a class="variable" href="#linenum1161">end</a>.nanos - <a class="variable" href="#linenum425">nanos</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1165" class="linenum-cell" data-linenum="1165" href="#linenum1165"></a></td>
@@ -4676,7 +4676,7 @@
 </tr>
 <tr>
 <td><a id="linenum1168" class="linenum-cell" data-linenum="1168" href="#linenum1168"></a></td>
-<td><pre>        long secsDiff = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum939">subtractExact</a>(<a class="variable" href="#linenum1167">end</a>.seconds, <a class="variable" href="#linenum408">seconds</a>);</pre></td>
+<td><pre>        long secsDiff = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum918">subtractExact</a>(<a class="variable" href="#linenum1167">end</a>.seconds, <a class="variable" href="#linenum408">seconds</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1169" class="linenum-cell" data-linenum="1169" href="#linenum1169"></a></td>
@@ -4932,7 +4932,7 @@
 </tr>
 <tr>
 <td><a id="linenum1232" class="linenum-cell" data-linenum="1232" href="#linenum1232"></a></td>
-<td><pre>            long millis = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum408">seconds</a>+1, 1000);</pre></td>
+<td><pre>            long millis = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum408">seconds</a>+1, 1000);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1233" class="linenum-cell" data-linenum="1233" href="#linenum1233"></a></td>
@@ -4940,7 +4940,7 @@
 </tr>
 <tr>
 <td><a id="linenum1234" class="linenum-cell" data-linenum="1234" href="#linenum1234"></a></td>
-<td><pre>            return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="variable" href="#linenum1232">millis</a>, <a class="variable" href="#linenum1233">adjustment</a>);</pre></td>
+<td><pre>            return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="variable" href="#linenum1232">millis</a>, <a class="variable" href="#linenum1233">adjustment</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1235" class="linenum-cell" data-linenum="1235" href="#linenum1235"></a></td>
@@ -4948,11 +4948,11 @@
 </tr>
 <tr>
 <td><a id="linenum1236" class="linenum-cell" data-linenum="1236" href="#linenum1236"></a></td>
-<td><pre>            long millis = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum408">seconds</a>, 1000);</pre></td>
+<td><pre>            long millis = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum408">seconds</a>, 1000);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1237" class="linenum-cell" data-linenum="1237" href="#linenum1237"></a></td>
-<td><pre>            return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="variable" href="#linenum1236">millis</a>, <a class="variable" href="#linenum425">nanos</a> / 1000_000);</pre></td>
+<td><pre>            return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="variable" href="#linenum1236">millis</a>, <a class="variable" href="#linenum425">nanos</a> / 1000_000);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1238" class="linenum-cell" data-linenum="1238" href="#linenum1238"></a></td>

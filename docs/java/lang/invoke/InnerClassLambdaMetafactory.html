@@ -800,7 +800,7 @@
 </tr>
 <tr>
 <td><a id="linenum199" class="linenum-cell" data-linenum="199" href="#linenum199"></a></td>
-<td><pre>                <a class="variable" href="#linenum121">argDescs</a>[<a class="variable" href="#linenum197">i</a>] = BytecodeDescriptor.<a class="type" href="/OdinCodeBrowserJdk17/sun/invoke/util/BytecodeDescriptor.html#linenum120">unparse</a>(factoryType.parameterType(<a class="variable" href="#linenum197">i</a>));</pre></td>
+<td><pre>                <a class="variable" href="#linenum121">argDescs</a>[<a class="variable" href="#linenum197">i</a>] = BytecodeDescriptor.<a class="type" href="/OdinCodeBrowserJdk17/sun/invoke/util/BytecodeDescriptor.html#linenum107">unparse</a>(factoryType.parameterType(<a class="variable" href="#linenum197">i</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum200" class="linenum-cell" data-linenum="200" href="#linenum200"></a></td>
@@ -844,7 +844,7 @@
 </tr>
 <tr>
 <td><a id="linenum210" class="linenum-cell" data-linenum="210" href="#linenum210"></a></td>
-<td><pre>            <a class="variable" href="#linenum207">name</a> = <a class="variable" href="#linenum207">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2954">replace</a>('/', '_');</pre></td>
+<td><pre>            <a class="variable" href="#linenum207">name</a> = <a class="variable" href="#linenum207">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2801">replace</a>('/', '_');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum211" class="linenum-cell" data-linenum="211" href="#linenum211"></a></td>
@@ -852,7 +852,7 @@
 </tr>
 <tr>
 <td><a id="linenum212" class="linenum-cell" data-linenum="212" href="#linenum212"></a></td>
-<td><pre>        return <a class="variable" href="#linenum207">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2954">replace</a>('.', '/') + <span class='string'>&quot;$$Lambda$&quot;</span> + <a class="variable" href="#linenum89">counter</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/util/concurrent/atomic/AtomicInteger.html#linenum217">incrementAndGet</a>();</pre></td>
+<td><pre>        return <a class="variable" href="#linenum207">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2801">replace</a>('.', '/') + <span class='string'>&quot;$$Lambda$&quot;</span> + <a class="variable" href="#linenum89">counter</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/util/concurrent/atomic/AtomicInteger.html#linenum217">incrementAndGet</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum213" class="linenum-cell" data-linenum="213" href="#linenum213"></a></td>
@@ -972,7 +972,7 @@
 </tr>
 <tr>
 <td><a id="linenum242" class="linenum-cell" data-linenum="242" href="#linenum242"></a></td>
-<td><pre>                final <a class="type" href="/OdinCodeBrowserJdk17/java/lang/reflect/Constructor.html#linenum64">Constructor</a>&lt;?&gt;[] ctrs = AccessController.<a class="type" href="/OdinCodeBrowserJdk17/java/security/AccessController.html#linenum877">doPrivileged</a>(</pre></td>
+<td><pre>                final <a class="type" href="/OdinCodeBrowserJdk17/java/lang/reflect/Constructor.html#linenum64">Constructor</a>&lt;?&gt;[] ctrs = AccessController.<a class="type" href="/OdinCodeBrowserJdk17/java/security/AccessController.html#linenum315">doPrivileged</a>(</pre></td>
 </tr>
 <tr>
 <td><a id="linenum243" class="linenum-cell" data-linenum="243" href="#linenum243"></a></td>
@@ -1928,7 +1928,7 @@
 </tr>
 <tr>
 <td><a id="linenum481" class="linenum-cell" data-linenum="481" href="#linenum481"></a></td>
-<td><pre>        <a class="variable" href="#linenum472">mv</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/MethodVisitor.html#linenum571">visitLdcInsn</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum261">getType</a>(<a class="variable" href="#linenum206">targetClass</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum472">mv</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/MethodVisitor.html#linenum571">visitLdcInsn</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum207">getType</a>(<a class="variable" href="#linenum206">targetClass</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum482" class="linenum-cell" data-linenum="482" href="#linenum482"></a></td>
@@ -1992,7 +1992,7 @@
 </tr>
 <tr>
 <td><a id="linenum497" class="linenum-cell" data-linenum="497" href="#linenum497"></a></td>
-<td><pre>            <a class="variable" href="#linenum472">mv</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/invoke/TypeConvertingMethodAdapter.html#linenum138">boxIfTypePrimitive</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum261">getType</a>(<a class="variable" href="#linenum121">argDescs</a>[<a class="variable" href="#linenum492">i</a>]));</pre></td>
+<td><pre>            <a class="variable" href="#linenum472">mv</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/invoke/TypeConvertingMethodAdapter.html#linenum138">boxIfTypePrimitive</a>(Type.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/org/objectweb/asm/Type.html#linenum207">getType</a>(<a class="variable" href="#linenum121">argDescs</a>[<a class="variable" href="#linenum492">i</a>]));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum498" class="linenum-cell" data-linenum="498" href="#linenum498"></a></td>
@@ -2280,7 +2280,7 @@
 </tr>
 <tr>
 <td><a id="linenum569" class="linenum-cell" data-linenum="569" href="#linenum569"></a></td>
-<td><pre>                    <a class="variable" href="#linenum567">mtype</a> = <a class="variable" href="#linenum567">mtype</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/invoke/MethodType.html#linenum475">insertParameterTypes</a>(0, implClass);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum567">mtype</a> = <a class="variable" href="#linenum567">mtype</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/invoke/MethodType.html#linenum432">insertParameterTypes</a>(0, implClass);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum570" class="linenum-cell" data-linenum="570" href="#linenum570"></a></td>

@@ -1252,7 +1252,7 @@
 </tr>
 <tr>
 <td><a id="linenum312" class="linenum-cell" data-linenum="312" href="#linenum312"></a></td>
-<td><pre>        return FloatingDecimal.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/math/FloatingDecimal.html#linenum79">toJavaFormatString</a>(<a class="variable" href="#linenum311">d</a>);</pre></td>
+<td><pre>        return FloatingDecimal.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/math/FloatingDecimal.html#linenum69">toJavaFormatString</a>(<a class="variable" href="#linenum311">d</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum313" class="linenum-cell" data-linenum="313" href="#linenum313"></a></td>
@@ -1608,7 +1608,7 @@
 </tr>
 <tr>
 <td><a id="linenum401" class="linenum-cell" data-linenum="401" href="#linenum401"></a></td>
-<td><pre>            return Double.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum768">toString</a>(<a class="variable" href="#linenum393">d</a>);</pre></td>
+<td><pre>            return Double.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum311">toString</a>(<a class="variable" href="#linenum393">d</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum402" class="linenum-cell" data-linenum="402" href="#linenum402"></a></td>
@@ -1628,11 +1628,11 @@
 </tr>
 <tr>
 <td><a id="linenum406" class="linenum-cell" data-linenum="406" href="#linenum406"></a></td>
-<td><pre>            if (Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum2282">copySign</a>(1.0, <a class="variable" href="#linenum393">d</a>) == -1.0)    <span class='comment'>// value is negative,</span></pre></td>
+<td><pre>            if (Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum2258">copySign</a>(1.0, <a class="variable" href="#linenum393">d</a>) == -1.0)    <span class='comment'>// value is negative,</span></pre></td>
 </tr>
 <tr>
 <td><a id="linenum407" class="linenum-cell" data-linenum="407" href="#linenum407"></a></td>
-<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<span class='string'>&quot;-&quot;</span>);                  <span class='comment'>// so append sign info</span></pre></td>
+<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<span class='string'>&quot;-&quot;</span>);                  <span class='comment'>// so append sign info</span></pre></td>
 </tr>
 <tr>
 <td><a id="linenum408" class="linenum-cell" data-linenum="408" href="#linenum408"></a></td>
@@ -1640,7 +1640,7 @@
 </tr>
 <tr>
 <td><a id="linenum409" class="linenum-cell" data-linenum="409" href="#linenum409"></a></td>
-<td><pre>            <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<span class='string'>&quot;0x&quot;</span>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<span class='string'>&quot;0x&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum410" class="linenum-cell" data-linenum="410" href="#linenum410"></a></td>
@@ -1648,7 +1648,7 @@
 </tr>
 <tr>
 <td><a id="linenum411" class="linenum-cell" data-linenum="411" href="#linenum411"></a></td>
-<td><pre>            <a class="variable" href="#linenum393">d</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1545">abs</a>(<a class="variable" href="#linenum393">d</a>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum393">d</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1423">abs</a>(<a class="variable" href="#linenum393">d</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum412" class="linenum-cell" data-linenum="412" href="#linenum412"></a></td>
@@ -1660,7 +1660,7 @@
 </tr>
 <tr>
 <td><a id="linenum414" class="linenum-cell" data-linenum="414" href="#linenum414"></a></td>
-<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<span class='string'>&quot;0.0p0&quot;</span>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<span class='string'>&quot;0.0p0&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum415" class="linenum-cell" data-linenum="415" href="#linenum415"></a></td>
@@ -1712,7 +1712,7 @@
 </tr>
 <tr>
 <td><a id="linenum427" class="linenum-cell" data-linenum="427" href="#linenum427"></a></td>
-<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<a class="variable" href="#linenum416">subnormal</a> ? <span class='string'>&quot;0.&quot;</span> : <span class='string'>&quot;1.&quot;</span>);</pre></td>
+<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<a class="variable" href="#linenum416">subnormal</a> ? <span class='string'>&quot;0.&quot;</span> : <span class='string'>&quot;1.&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum428" class="linenum-cell" data-linenum="428" href="#linenum428"></a></td>
@@ -1740,7 +1740,7 @@
 </tr>
 <tr>
 <td><a id="linenum434" class="linenum-cell" data-linenum="434" href="#linenum434"></a></td>
-<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<a class="variable" href="#linenum433">signif</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum1821">equals</a>(<span class='string'>&quot;0000000000000&quot;</span>) ? <span class='comment'>// 13 zeros</span></pre></td>
+<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<a class="variable" href="#linenum433">signif</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum1821">equals</a>(<span class='string'>&quot;0000000000000&quot;</span>) ? <span class='comment'>// 13 zeros</span></pre></td>
 </tr>
 <tr>
 <td><a id="linenum435" class="linenum-cell" data-linenum="435" href="#linenum435"></a></td>
@@ -1756,7 +1756,7 @@
 </tr>
 <tr>
 <td><a id="linenum438" class="linenum-cell" data-linenum="438" href="#linenum438"></a></td>
-<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>('p');</pre></td>
+<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>('p');</pre></td>
 </tr>
 <tr>
 <td><a id="linenum439" class="linenum-cell" data-linenum="439" href="#linenum439"></a></td>
@@ -1776,7 +1776,7 @@
 </tr>
 <tr>
 <td><a id="linenum443" class="linenum-cell" data-linenum="443" href="#linenum443"></a></td>
-<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum265">append</a>(<a class="variable" href="#linenum416">subnormal</a> ?</pre></td>
+<td><pre>                <a class="variable" href="#linenum404">answer</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/StringBuilder.html#linenum167">append</a>(<a class="variable" href="#linenum416">subnormal</a> ?</pre></td>
 </tr>
 <tr>
 <td><a id="linenum444" class="linenum-cell" data-linenum="444" href="#linenum444"></a></td>
@@ -1784,7 +1784,7 @@
 </tr>
 <tr>
 <td><a id="linenum445" class="linenum-cell" data-linenum="445" href="#linenum445"></a></td>
-<td><pre>                              Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum2329">getExponent</a>(<a class="variable" href="#linenum393">d</a>));</pre></td>
+<td><pre>                              Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum2305">getExponent</a>(<a class="variable" href="#linenum393">d</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum446" class="linenum-cell" data-linenum="446" href="#linenum446"></a></td>
@@ -2760,7 +2760,7 @@
 </tr>
 <tr>
 <td><a id="linenum689" class="linenum-cell" data-linenum="689" href="#linenum689"></a></td>
-<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1545">abs</a>(<a class="variable" href="#linenum688">d</a>) &lt;= Double.MAX_VALUE;</pre></td>
+<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1423">abs</a>(<a class="variable" href="#linenum688">d</a>) &lt;= Double.MAX_VALUE;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum690" class="linenum-cell" data-linenum="690" href="#linenum690"></a></td>
@@ -2980,7 +2980,7 @@
 </tr>
 <tr>
 <td><a id="linenum744" class="linenum-cell" data-linenum="744" href="#linenum744"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum743">isNaN</a>(<a class="variable" href="#linenum711">value</a>);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum662">isNaN</a>(<a class="variable" href="#linenum711">value</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum745" class="linenum-cell" data-linenum="745" href="#linenum745"></a></td>
@@ -3028,7 +3028,7 @@
 </tr>
 <tr>
 <td><a id="linenum756" class="linenum-cell" data-linenum="756" href="#linenum756"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum755">isInfinite</a>(<a class="variable" href="#linenum711">value</a>);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum674">isInfinite</a>(<a class="variable" href="#linenum711">value</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum757" class="linenum-cell" data-linenum="757" href="#linenum757"></a></td>
@@ -3080,7 +3080,7 @@
 </tr>
 <tr>
 <td><a id="linenum769" class="linenum-cell" data-linenum="769" href="#linenum769"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum768">toString</a>(<a class="variable" href="#linenum711">value</a>);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum311">toString</a>(<a class="variable" href="#linenum711">value</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum770" class="linenum-cell" data-linenum="770" href="#linenum770"></a></td>
@@ -3796,7 +3796,7 @@
 </tr>
 <tr>
 <td><a id="linenum948" class="linenum-cell" data-linenum="948" href="#linenum948"></a></td>
-<td><pre>        if (!<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum743">isNaN</a>(<a class="variable" href="#linenum947">value</a>)) {</pre></td>
+<td><pre>        if (!<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Double.html#linenum662">isNaN</a>(<a class="variable" href="#linenum947">value</a>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum949" class="linenum-cell" data-linenum="949" href="#linenum949"></a></td>
@@ -4636,7 +4636,7 @@
 </tr>
 <tr>
 <td><a id="linenum1158" class="linenum-cell" data-linenum="1158" href="#linenum1158"></a></td>
-<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1624">max</a>(<a class="variable" href="#linenum1157">a</a>, <a class="variable" href="#linenum1157">b</a>);</pre></td>
+<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1560">max</a>(<a class="variable" href="#linenum1157">a</a>, <a class="variable" href="#linenum1157">b</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1159" class="linenum-cell" data-linenum="1159" href="#linenum1159"></a></td>
@@ -4692,7 +4692,7 @@
 </tr>
 <tr>
 <td><a id="linenum1172" class="linenum-cell" data-linenum="1172" href="#linenum1172"></a></td>
-<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1707">min</a>(<a class="variable" href="#linenum1171">a</a>, <a class="variable" href="#linenum1171">b</a>);</pre></td>
+<td><pre>        return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1647">min</a>(<a class="variable" href="#linenum1171">a</a>, <a class="variable" href="#linenum1171">b</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1173" class="linenum-cell" data-linenum="1173" href="#linenum1173"></a></td>

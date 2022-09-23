@@ -772,15 +772,15 @@
 </tr>
 <tr>
 <td><a id="linenum192" class="linenum-cell" data-linenum="192" href="#linenum192"></a></td>
-<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum331">requireNonNull</a>(<a class="variable" href="#linenum187">standardOffsetTransitionList</a>, <span class='string'>&quot;standardOffsetTransitionList&quot;</span>);</pre></td>
+<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum231">requireNonNull</a>(<a class="variable" href="#linenum187">standardOffsetTransitionList</a>, <span class='string'>&quot;standardOffsetTransitionList&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum193" class="linenum-cell" data-linenum="193" href="#linenum193"></a></td>
-<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum331">requireNonNull</a>(<a class="variable" href="#linenum188">transitionList</a>, <span class='string'>&quot;transitionList&quot;</span>);</pre></td>
+<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum231">requireNonNull</a>(<a class="variable" href="#linenum188">transitionList</a>, <span class='string'>&quot;transitionList&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum194" class="linenum-cell" data-linenum="194" href="#linenum194"></a></td>
-<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum331">requireNonNull</a>(<a class="variable" href="#linenum189">lastRules</a>, <span class='string'>&quot;lastRules&quot;</span>);</pre></td>
+<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum231">requireNonNull</a>(<a class="variable" href="#linenum189">lastRules</a>, <span class='string'>&quot;lastRules&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum195" class="linenum-cell" data-linenum="195" href="#linenum195"></a></td>
@@ -1056,7 +1056,7 @@
 </tr>
 <tr>
 <td><a id="linenum263" class="linenum-cell" data-linenum="263" href="#linenum263"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/java/time/zone/ZoneOffsetTransitionRule.html#linenum100">ZoneOffsetTransitionRule</a>[] rulesArray = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3704">copyOf</a>(<a class="variable" href="#linenum262">temp</a>, <a class="variable" href="#linenum262">temp</a>.length, <a class="type" href="/OdinCodeBrowserJdk17/java/time/zone/ZoneOffsetTransitionRule.html#linenum100">ZoneOffsetTransitionRule</a>[].class);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/java/time/zone/ZoneOffsetTransitionRule.html#linenum100">ZoneOffsetTransitionRule</a>[] rulesArray = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3508">copyOf</a>(<a class="variable" href="#linenum262">temp</a>, <a class="variable" href="#linenum262">temp</a>.length, <a class="type" href="/OdinCodeBrowserJdk17/java/time/zone/ZoneOffsetTransitionRule.html#linenum100">ZoneOffsetTransitionRule</a>[].class);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum264" class="linenum-cell" data-linenum="264" href="#linenum264"></a></td>
@@ -2104,7 +2104,7 @@
 </tr>
 <tr>
 <td><a id="linenum525" class="linenum-cell" data-linenum="525" href="#linenum525"></a></td>
-<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2322">binarySearch</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, <a class="variable" href="#linenum508">epochSec</a>);</pre></td>
+<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum1577">binarySearch</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, <a class="variable" href="#linenum508">epochSec</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum526" class="linenum-cell" data-linenum="526" href="#linenum526"></a></td>
@@ -3124,7 +3124,7 @@
 </tr>
 <tr>
 <td><a id="linenum780" class="linenum-cell" data-linenum="780" href="#linenum780"></a></td>
-<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2322">binarySearch</a>(<a class="variable" href="#linenum279">standardTransitions</a>, <a class="variable" href="#linenum779">epochSec</a>);</pre></td>
+<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum1577">binarySearch</a>(<a class="variable" href="#linenum279">standardTransitions</a>, <a class="variable" href="#linenum779">epochSec</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum781" class="linenum-cell" data-linenum="781" href="#linenum781"></a></td>
@@ -3248,7 +3248,7 @@
 </tr>
 <tr>
 <td><a id="linenum811" class="linenum-cell" data-linenum="811" href="#linenum811"></a></td>
-<td><pre>        return Duration.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Duration.html#linenum248">ofSeconds</a>(<a class="variable" href="#linenum810">actualOffset</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/ZoneOffset.html#linenum475">getTotalSeconds</a>() - <a class="variable" href="#linenum809">standardOffset</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/ZoneOffset.html#linenum475">getTotalSeconds</a>());</pre></td>
+<td><pre>        return Duration.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Duration.html#linenum225">ofSeconds</a>(<a class="variable" href="#linenum810">actualOffset</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/ZoneOffset.html#linenum475">getTotalSeconds</a>() - <a class="variable" href="#linenum809">standardOffset</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/ZoneOffset.html#linenum475">getTotalSeconds</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum812" class="linenum-cell" data-linenum="812" href="#linenum812"></a></td>
@@ -3556,7 +3556,7 @@
 </tr>
 <tr>
 <td><a id="linenum888" class="linenum-cell" data-linenum="888" href="#linenum888"></a></td>
-<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2322">binarySearch</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, <a class="variable" href="#linenum865">epochSec</a>);</pre></td>
+<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum1577">binarySearch</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, <a class="variable" href="#linenum865">epochSec</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum889" class="linenum-cell" data-linenum="889" href="#linenum889"></a></td>
@@ -3760,7 +3760,7 @@
 </tr>
 <tr>
 <td><a id="linenum939" class="linenum-cell" data-linenum="939" href="#linenum939"></a></td>
-<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2322">binarySearch</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, <a class="variable" href="#linenum912">epochSec</a>);</pre></td>
+<td><pre>        int index  = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum1577">binarySearch</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, <a class="variable" href="#linenum912">epochSec</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum940" class="linenum-cell" data-linenum="940" href="#linenum940"></a></td>
@@ -3808,7 +3808,7 @@
 </tr>
 <tr>
 <td><a id="linenum951" class="linenum-cell" data-linenum="951" href="#linenum951"></a></td>
-<td><pre>        long zeroDay = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1287">floorDiv</a>(<a class="variable" href="#linenum950">localSecond</a>, 86400) + <a class="variable" href="#linenum173">DAYS_0000_TO_1970</a>;</pre></td>
+<td><pre>        long zeroDay = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1224">floorDiv</a>(<a class="variable" href="#linenum950">localSecond</a>, 86400) + <a class="variable" href="#linenum173">DAYS_0000_TO_1970</a>;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum952" class="linenum-cell" data-linenum="952" href="#linenum952"></a></td>
@@ -3912,7 +3912,7 @@
 </tr>
 <tr>
 <td><a id="linenum977" class="linenum-cell" data-linenum="977" href="#linenum977"></a></td>
-<td><pre>        return (int)Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1707">min</a>(<a class="variable" href="#linenum962">yearEst</a>, Year.MAX_VALUE);</pre></td>
+<td><pre>        return (int)Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1647">min</a>(<a class="variable" href="#linenum962">yearEst</a>, Year.MAX_VALUE);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum978" class="linenum-cell" data-linenum="978" href="#linenum978"></a></td>
@@ -4092,7 +4092,7 @@
 </tr>
 <tr>
 <td><a id="linenum1022" class="linenum-cell" data-linenum="1022" href="#linenum1022"></a></td>
-<td><pre>        return List.<a class="type" href="/OdinCodeBrowserJdk17/java/util/List.html#linenum1034">of</a>(<a class="variable" href="#linenum283">lastRules</a>);</pre></td>
+<td><pre>        return List.<a class="type" href="/OdinCodeBrowserJdk17/java/util/List.html#linenum811">of</a>(<a class="variable" href="#linenum283">lastRules</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1023" class="linenum-cell" data-linenum="1023" href="#linenum1023"></a></td>
@@ -4176,23 +4176,23 @@
 </tr>
 <tr>
 <td><a id="linenum1043" class="linenum-cell" data-linenum="1043" href="#linenum1043"></a></td>
-<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3116">equals</a>(<a class="variable" href="#linenum279">standardTransitions</a>, other.standardTransitions)</pre></td>
+<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2365">equals</a>(<a class="variable" href="#linenum279">standardTransitions</a>, other.standardTransitions)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1044" class="linenum-cell" data-linenum="1044" href="#linenum1044"></a></td>
-<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3116">equals</a>(<a class="variable" href="#linenum280">standardOffsets</a>, other.standardOffsets)</pre></td>
+<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2365">equals</a>(<a class="variable" href="#linenum280">standardOffsets</a>, other.standardOffsets)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1045" class="linenum-cell" data-linenum="1045" href="#linenum1045"></a></td>
-<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3116">equals</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, other.savingsInstantTransitions)</pre></td>
+<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2365">equals</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>, other.savingsInstantTransitions)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1046" class="linenum-cell" data-linenum="1046" href="#linenum1046"></a></td>
-<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3116">equals</a>(<a class="variable" href="#linenum282">wallOffsets</a>, other.wallOffsets)</pre></td>
+<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2365">equals</a>(<a class="variable" href="#linenum282">wallOffsets</a>, other.wallOffsets)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1047" class="linenum-cell" data-linenum="1047" href="#linenum1047"></a></td>
-<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3116">equals</a>(<a class="variable" href="#linenum283">lastRules</a>, other.lastRules);</pre></td>
+<td><pre>                &amp;&amp; Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum2365">equals</a>(<a class="variable" href="#linenum283">lastRules</a>, other.lastRules);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1048" class="linenum-cell" data-linenum="1048" href="#linenum1048"></a></td>
@@ -4232,23 +4232,23 @@
 </tr>
 <tr>
 <td><a id="linenum1057" class="linenum-cell" data-linenum="1057" href="#linenum1057"></a></td>
-<td><pre>        return Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4492">hashCode</a>(<a class="variable" href="#linenum279">standardTransitions</a>) ^</pre></td>
+<td><pre>        return Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4268">hashCode</a>(<a class="variable" href="#linenum279">standardTransitions</a>) ^</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1058" class="linenum-cell" data-linenum="1058" href="#linenum1058"></a></td>
-<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4492">hashCode</a>(<a class="variable" href="#linenum280">standardOffsets</a>) ^</pre></td>
+<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4268">hashCode</a>(<a class="variable" href="#linenum280">standardOffsets</a>) ^</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1059" class="linenum-cell" data-linenum="1059" href="#linenum1059"></a></td>
-<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4492">hashCode</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>) ^</pre></td>
+<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4268">hashCode</a>(<a class="variable" href="#linenum281">savingsInstantTransitions</a>) ^</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1060" class="linenum-cell" data-linenum="1060" href="#linenum1060"></a></td>
-<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4492">hashCode</a>(<a class="variable" href="#linenum282">wallOffsets</a>) ^</pre></td>
+<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4268">hashCode</a>(<a class="variable" href="#linenum282">wallOffsets</a>) ^</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1061" class="linenum-cell" data-linenum="1061" href="#linenum1061"></a></td>
-<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4492">hashCode</a>(<a class="variable" href="#linenum283">lastRules</a>);</pre></td>
+<td><pre>                Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum4268">hashCode</a>(<a class="variable" href="#linenum283">lastRules</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1062" class="linenum-cell" data-linenum="1062" href="#linenum1062"></a></td>

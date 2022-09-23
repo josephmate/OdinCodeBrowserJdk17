@@ -712,7 +712,7 @@
 </tr>
 <tr>
 <td><a id="linenum177" class="linenum-cell" data-linenum="177" href="#linenum177"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum252">date</a>(<a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum294">prolepticYear</a>(<a class="variable" href="#linenum176">era</a>, <a class="variable" href="#linenum176">yearOfEra</a>), <a class="variable" href="#linenum176">month</a>, <a class="variable" href="#linenum176">dayOfMonth</a>);</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum190">date</a>(<a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum294">prolepticYear</a>(<a class="variable" href="#linenum176">era</a>, <a class="variable" href="#linenum176">yearOfEra</a>), <a class="variable" href="#linenum176">month</a>, <a class="variable" href="#linenum176">dayOfMonth</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum178" class="linenum-cell" data-linenum="178" href="#linenum178"></a></td>
@@ -772,7 +772,7 @@
 </tr>
 <tr>
 <td><a id="linenum192" class="linenum-cell" data-linenum="192" href="#linenum192"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoDate.html#linenum106">MinguoDate</a>(LocalDate.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum269">of</a>(<a class="variable" href="#linenum191">prolepticYear</a> + <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>, <a class="variable" href="#linenum191">month</a>, <a class="variable" href="#linenum191">dayOfMonth</a>));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoDate.html#linenum106">MinguoDate</a>(LocalDate.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum249">of</a>(<a class="variable" href="#linenum191">prolepticYear</a> + <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>, <a class="variable" href="#linenum191">month</a>, <a class="variable" href="#linenum191">dayOfMonth</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum193" class="linenum-cell" data-linenum="193" href="#linenum193"></a></td>
@@ -960,7 +960,7 @@
 </tr>
 <tr>
 <td><a id="linenum239" class="linenum-cell" data-linenum="239" href="#linenum239"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum247">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum184">systemDefaultZone</a>());</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum242">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum184">systemDefaultZone</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum240" class="linenum-cell" data-linenum="240" href="#linenum240"></a></td>
@@ -980,7 +980,7 @@
 </tr>
 <tr>
 <td><a id="linenum244" class="linenum-cell" data-linenum="244" href="#linenum244"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum247">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum203">system</a>(<a class="variable" href="#linenum243">zone</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/MinguoChronology.html#linenum242">dateNow</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum203">system</a>(<a class="variable" href="#linenum243">zone</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum245" class="linenum-cell" data-linenum="245" href="#linenum245"></a></td>
@@ -1240,7 +1240,7 @@
 </tr>
 <tr>
 <td><a id="linenum309" class="linenum-cell" data-linenum="309" href="#linenum309"></a></td>
-<td><pre>        return List.<a class="type" href="/OdinCodeBrowserJdk17/java/util/List.html#linenum1034">of</a>(MinguoEra.values());</pre></td>
+<td><pre>        return List.<a class="type" href="/OdinCodeBrowserJdk17/java/util/List.html#linenum811">of</a>(MinguoEra.values());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum310" class="linenum-cell" data-linenum="310" href="#linenum310"></a></td>
@@ -1276,7 +1276,7 @@
 </tr>
 <tr>
 <td><a id="linenum318" class="linenum-cell" data-linenum="318" href="#linenum318"></a></td>
-<td><pre>                return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum170">of</a>(<a class="variable" href="#linenum317">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum224">getMinimum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a> * 12L, <a class="variable" href="#linenum317">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum260">getMaximum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a> * 12L);</pre></td>
+<td><pre>                return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum126">of</a>(<a class="variable" href="#linenum317">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum224">getMinimum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a> * 12L, <a class="variable" href="#linenum317">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum260">getMaximum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a> * 12L);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum319" class="linenum-cell" data-linenum="319" href="#linenum319"></a></td>
@@ -1292,7 +1292,7 @@
 </tr>
 <tr>
 <td><a id="linenum322" class="linenum-cell" data-linenum="322" href="#linenum322"></a></td>
-<td><pre>                return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum170">of</a>(1, <a class="variable" href="#linenum321">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum260">getMaximum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>, -<a class="variable" href="#linenum321">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum224">getMinimum</a>() + 1 + <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>);</pre></td>
+<td><pre>                return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum147">of</a>(1, <a class="variable" href="#linenum321">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum260">getMaximum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>, -<a class="variable" href="#linenum321">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum224">getMinimum</a>() + 1 + <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum323" class="linenum-cell" data-linenum="323" href="#linenum323"></a></td>
@@ -1308,7 +1308,7 @@
 </tr>
 <tr>
 <td><a id="linenum326" class="linenum-cell" data-linenum="326" href="#linenum326"></a></td>
-<td><pre>                return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum170">of</a>(<a class="variable" href="#linenum325">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum224">getMinimum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>, <a class="variable" href="#linenum325">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum260">getMaximum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>);</pre></td>
+<td><pre>                return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum126">of</a>(<a class="variable" href="#linenum325">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum224">getMinimum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>, <a class="variable" href="#linenum325">range</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum260">getMaximum</a>() - <a class="variable" href="#linenum122">YEARS_DIFFERENCE</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum327" class="linenum-cell" data-linenum="327" href="#linenum327"></a></td>

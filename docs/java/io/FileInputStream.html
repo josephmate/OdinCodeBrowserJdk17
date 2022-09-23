@@ -772,7 +772,7 @@
 </tr>
 <tr>
 <td><a id="linenum192" class="linenum-cell" data-linenum="192" href="#linenum192"></a></td>
-<td><pre>            <a class="variable" href="#linenum187">security</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/SecurityManager.html#linenum790">checkRead</a>(fdObj);</pre></td>
+<td><pre>            <a class="variable" href="#linenum187">security</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/SecurityManager.html#linenum728">checkRead</a>(fdObj);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum193" class="linenum-cell" data-linenum="193" href="#linenum193"></a></td>
@@ -1232,7 +1232,7 @@
 </tr>
 <tr>
 <td><a id="linenum307" class="linenum-cell" data-linenum="307" href="#linenum307"></a></td>
-<td><pre>            if (<a class="variable" href="#linenum298">n</a> &lt; 0 || (<a class="variable" href="#linenum298">n</a> = <a class="type" href="/OdinCodeBrowserJdk17/java/io/FileInputStream.html#linenum275">read</a>()) &lt; 0)</pre></td>
+<td><pre>            if (<a class="variable" href="#linenum298">n</a> &lt; 0 || (<a class="variable" href="#linenum298">n</a> = <a class="type" href="/OdinCodeBrowserJdk17/java/io/FileInputStream.html#linenum227">read</a>()) &lt; 0)</pre></td>
 </tr>
 <tr>
 <td><a id="linenum308" class="linenum-cell" data-linenum="308" href="#linenum308"></a></td>
@@ -1248,7 +1248,7 @@
 </tr>
 <tr>
 <td><a id="linenum311" class="linenum-cell" data-linenum="311" href="#linenum311"></a></td>
-<td><pre>            <a class="variable" href="#linenum294">capacity</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1624">max</a>(ArraysSupport.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/util/ArraysSupport.html#linenum632">newLength</a>(<a class="variable" href="#linenum294">capacity</a>,</pre></td>
+<td><pre>            <a class="variable" href="#linenum294">capacity</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1560">max</a>(ArraysSupport.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/util/ArraysSupport.html#linenum632">newLength</a>(<a class="variable" href="#linenum294">capacity</a>,</pre></td>
 </tr>
 <tr>
 <td><a id="linenum312" class="linenum-cell" data-linenum="312" href="#linenum312"></a></td>
@@ -1264,7 +1264,7 @@
 </tr>
 <tr>
 <td><a id="linenum315" class="linenum-cell" data-linenum="315" href="#linenum315"></a></td>
-<td><pre>            <a class="variable" href="#linenum295">buf</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3704">copyOf</a>(<a class="variable" href="#linenum295">buf</a>, <a class="variable" href="#linenum294">capacity</a>);</pre></td>
+<td><pre>            <a class="variable" href="#linenum295">buf</a> = Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3479">copyOf</a>(<a class="variable" href="#linenum295">buf</a>, <a class="variable" href="#linenum294">capacity</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum316" class="linenum-cell" data-linenum="316" href="#linenum316"></a></td>
@@ -1276,7 +1276,7 @@
 </tr>
 <tr>
 <td><a id="linenum318" class="linenum-cell" data-linenum="318" href="#linenum318"></a></td>
-<td><pre>        return (<a class="variable" href="#linenum294">capacity</a> == <a class="variable" href="#linenum297">nread</a>) ? <a class="variable" href="#linenum295">buf</a> : Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3704">copyOf</a>(<a class="variable" href="#linenum295">buf</a>, <a class="variable" href="#linenum297">nread</a>);</pre></td>
+<td><pre>        return (<a class="variable" href="#linenum294">capacity</a> == <a class="variable" href="#linenum297">nread</a>) ? <a class="variable" href="#linenum295">buf</a> : Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3479">copyOf</a>(<a class="variable" href="#linenum295">buf</a>, <a class="variable" href="#linenum297">nread</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum319" class="linenum-cell" data-linenum="319" href="#linenum319"></a></td>
@@ -1332,7 +1332,7 @@
 </tr>
 <tr>
 <td><a id="linenum332" class="linenum-cell" data-linenum="332" href="#linenum332"></a></td>
-<td><pre>            return super.<a class="type" href="/OdinCodeBrowserJdk17/java/io/InputStream.html#linenum501">readNBytes</a>(<a class="variable" href="#linenum321">len</a>);</pre></td>
+<td><pre>            return super.<a class="type" href="/OdinCodeBrowserJdk17/java/io/InputStream.html#linenum394">readNBytes</a>(<a class="variable" href="#linenum321">len</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum333" class="linenum-cell" data-linenum="333" href="#linenum333"></a></td>
@@ -1340,7 +1340,7 @@
 </tr>
 <tr>
 <td><a id="linenum334" class="linenum-cell" data-linenum="334" href="#linenum334"></a></td>
-<td><pre>        int capacity = (int)Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1707">min</a>(<a class="variable" href="#linenum321">len</a>, <a class="variable" href="#linenum329">size</a>);</pre></td>
+<td><pre>        int capacity = (int)Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1647">min</a>(<a class="variable" href="#linenum321">len</a>, <a class="variable" href="#linenum329">size</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum335" class="linenum-cell" data-linenum="335" href="#linenum335"></a></td>
@@ -1392,7 +1392,7 @@
 </tr>
 <tr>
 <td><a id="linenum347" class="linenum-cell" data-linenum="347" href="#linenum347"></a></td>
-<td><pre>                byte b = (byte)<a class="type" href="/OdinCodeBrowserJdk17/java/io/FileInputStream.html#linenum275">read</a>();</pre></td>
+<td><pre>                byte b = (byte)<a class="type" href="/OdinCodeBrowserJdk17/java/io/FileInputStream.html#linenum227">read</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum348" class="linenum-cell" data-linenum="348" href="#linenum348"></a></td>
@@ -1420,7 +1420,7 @@
 </tr>
 <tr>
 <td><a id="linenum354" class="linenum-cell" data-linenum="354" href="#linenum354"></a></td>
-<td><pre>        return (<a class="variable" href="#linenum334">capacity</a> == <a class="variable" href="#linenum338">nread</a>) ? <a class="variable" href="#linenum335">buf</a> : Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3704">copyOf</a>(<a class="variable" href="#linenum335">buf</a>, <a class="variable" href="#linenum338">nread</a>);</pre></td>
+<td><pre>        return (<a class="variable" href="#linenum334">capacity</a> == <a class="variable" href="#linenum338">nread</a>) ? <a class="variable" href="#linenum335">buf</a> : Arrays.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Arrays.html#linenum3479">copyOf</a>(<a class="variable" href="#linenum335">buf</a>, <a class="variable" href="#linenum338">nread</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum355" class="linenum-cell" data-linenum="355" href="#linenum355"></a></td>

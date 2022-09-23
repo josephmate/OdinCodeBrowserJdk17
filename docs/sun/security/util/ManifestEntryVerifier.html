@@ -180,7 +180,7 @@
 </tr>
 <tr>
 <td><a id="linenum44" class="linenum-cell" data-linenum="44" href="#linenum44"></a></td>
-<td><pre>    private static final <a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum41">Debug</a> debug = Debug.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum144">getInstance</a>(<span class='string'>&quot;jar&quot;</span>);</pre></td>
+<td><pre>    private static final <a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum41">Debug</a> debug = Debug.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum135">getInstance</a>(<span class='string'>&quot;jar&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum45" class="linenum-cell" data-linenum="45" href="#linenum45"></a></td>
@@ -512,7 +512,7 @@
 </tr>
 <tr>
 <td><a id="linenum127" class="linenum-cell" data-linenum="127" href="#linenum127"></a></td>
-<td><pre>            if (<a class="variable" href="#linenum125">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum3492">toUpperCase</a>(Locale.ENGLISH).endsWith(<span class='string'>&quot;-DIGEST&quot;</span>)) {</pre></td>
+<td><pre>            if (<a class="variable" href="#linenum125">key</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum3468">toUpperCase</a>(Locale.ENGLISH).endsWith(<span class='string'>&quot;-DIGEST&quot;</span>)) {</pre></td>
 </tr>
 <tr>
 <td><a id="linenum128" class="linenum-cell" data-linenum="128" href="#linenum128"></a></td>
@@ -892,7 +892,7 @@
 </tr>
 <tr>
 <td><a id="linenum222" class="linenum-cell" data-linenum="222" href="#linenum222"></a></td>
-<td><pre>                        <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum211">println</a>(<span class='string'>&quot;Digest algorithm is restricted: &quot;</span> + e);</pre></td>
+<td><pre>                        <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum183">println</a>(<span class='string'>&quot;Digest algorithm is restricted: &quot;</span> + e);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum223" class="linenum-cell" data-linenum="223" href="#linenum223"></a></td>
@@ -916,7 +916,7 @@
 </tr>
 <tr>
 <td><a id="linenum228" class="linenum-cell" data-linenum="228" href="#linenum228"></a></td>
-<td><pre>            byte [] theHash = <a class="variable" href="#linenum213">digest</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/security/MessageDigest.html#linenum433">digest</a>();</pre></td>
+<td><pre>            byte [] theHash = <a class="variable" href="#linenum213">digest</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/security/MessageDigest.html#linenum387">digest</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum229" class="linenum-cell" data-linenum="229" href="#linenum229"></a></td>
@@ -928,7 +928,7 @@
 </tr>
 <tr>
 <td><a id="linenum231" class="linenum-cell" data-linenum="231" href="#linenum231"></a></td>
-<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum211">println</a>(<span class='string'>&quot;Manifest Entry: &quot;</span> +</pre></td>
+<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum183">println</a>(<span class='string'>&quot;Manifest Entry: &quot;</span> +</pre></td>
 </tr>
 <tr>
 <td><a id="linenum232" class="linenum-cell" data-linenum="232" href="#linenum232"></a></td>
@@ -936,15 +936,15 @@
 </tr>
 <tr>
 <td><a id="linenum233" class="linenum-cell" data-linenum="233" href="#linenum233"></a></td>
-<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum211">println</a>(<span class='string'>&quot;  manifest &quot;</span> + HexFormat.<a class="type" href="/OdinCodeBrowserJdk17/java/util/HexFormat.html#linenum211">of</a>().formatHex(<a class="variable" href="#linenum227">manHash</a>));</pre></td>
+<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum183">println</a>(<span class='string'>&quot;  manifest &quot;</span> + HexFormat.<a class="type" href="/OdinCodeBrowserJdk17/java/util/HexFormat.html#linenum211">of</a>().formatHex(<a class="variable" href="#linenum227">manHash</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum234" class="linenum-cell" data-linenum="234" href="#linenum234"></a></td>
-<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum211">println</a>(<span class='string'>&quot;  computed &quot;</span> + HexFormat.<a class="type" href="/OdinCodeBrowserJdk17/java/util/HexFormat.html#linenum211">of</a>().formatHex(<a class="variable" href="#linenum228">theHash</a>));</pre></td>
+<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum183">println</a>(<span class='string'>&quot;  computed &quot;</span> + HexFormat.<a class="type" href="/OdinCodeBrowserJdk17/java/util/HexFormat.html#linenum211">of</a>().formatHex(<a class="variable" href="#linenum228">theHash</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum235" class="linenum-cell" data-linenum="235" href="#linenum235"></a></td>
-<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum211">println</a>();</pre></td>
+<td><pre>                <a class="variable" href="#linenum44">debug</a>.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/util/Debug.html#linenum202">println</a>();</pre></td>
 </tr>
 <tr>
 <td><a id="linenum236" class="linenum-cell" data-linenum="236" href="#linenum236"></a></td>

@@ -544,7 +544,7 @@
 </tr>
 <tr>
 <td><a id="linenum135" class="linenum-cell" data-linenum="135" href="#linenum135"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum165">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum184">systemDefaultZone</a>());</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum150">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum184">systemDefaultZone</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum136" class="linenum-cell" data-linenum="136" href="#linenum136"></a></td>
@@ -608,7 +608,7 @@
 </tr>
 <tr>
 <td><a id="linenum151" class="linenum-cell" data-linenum="151" href="#linenum151"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum165">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum203">system</a>(<a class="variable" href="#linenum150">zone</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum150">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum203">system</a>(<a class="variable" href="#linenum150">zone</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum152" class="linenum-cell" data-linenum="152" href="#linenum152"></a></td>
@@ -740,7 +740,7 @@
 </tr>
 <tr>
 <td><a id="linenum184" class="linenum-cell" data-linenum="184" href="#linenum184"></a></td>
-<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum106">ThaiBuddhistDate</a>(LocalDate.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum269">of</a>(<a class="variable" href="#linenum183">prolepticYear</a> - YEARS_DIFFERENCE, <a class="variable" href="#linenum183">month</a>, <a class="variable" href="#linenum183">dayOfMonth</a>));</pre></td>
+<td><pre>        return new <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum106">ThaiBuddhistDate</a>(LocalDate.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum249">of</a>(<a class="variable" href="#linenum183">prolepticYear</a> - YEARS_DIFFERENCE, <a class="variable" href="#linenum183">month</a>, <a class="variable" href="#linenum183">dayOfMonth</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum185" class="linenum-cell" data-linenum="185" href="#linenum185"></a></td>
@@ -1096,7 +1096,7 @@
 </tr>
 <tr>
 <td><a id="linenum273" class="linenum-cell" data-linenum="273" href="#linenum273"></a></td>
-<td><pre>                        return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum170">of</a>(1, <a class="variable" href="#linenum272">max</a>);</pre></td>
+<td><pre>                        return ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum126">of</a>(1, <a class="variable" href="#linenum272">max</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum274" class="linenum-cell" data-linenum="274" href="#linenum274"></a></td>
@@ -1316,7 +1316,7 @@
 </tr>
 <tr>
 <td><a id="linenum328" class="linenum-cell" data-linenum="328" href="#linenum328"></a></td>
-<td><pre>                            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum422">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1081">withYear</a>((<a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum307">getProlepticYear</a>() &gt;= 1 ? <a class="variable" href="#linenum325">nvalue</a> : 1 - <a class="variable" href="#linenum325">nvalue</a>)  - YEARS_DIFFERENCE));</pre></td>
+<td><pre>                            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum346">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1081">withYear</a>((<a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum307">getProlepticYear</a>() &gt;= 1 ? <a class="variable" href="#linenum325">nvalue</a> : 1 - <a class="variable" href="#linenum325">nvalue</a>)  - YEARS_DIFFERENCE));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum329" class="linenum-cell" data-linenum="329" href="#linenum329"></a></td>
@@ -1324,7 +1324,7 @@
 </tr>
 <tr>
 <td><a id="linenum330" class="linenum-cell" data-linenum="330" href="#linenum330"></a></td>
-<td><pre>                            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum422">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1081">withYear</a>(<a class="variable" href="#linenum325">nvalue</a> - YEARS_DIFFERENCE));</pre></td>
+<td><pre>                            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum346">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1081">withYear</a>(<a class="variable" href="#linenum325">nvalue</a> - YEARS_DIFFERENCE));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum331" class="linenum-cell" data-linenum="331" href="#linenum331"></a></td>
@@ -1332,7 +1332,7 @@
 </tr>
 <tr>
 <td><a id="linenum332" class="linenum-cell" data-linenum="332" href="#linenum332"></a></td>
-<td><pre>                            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum422">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1081">withYear</a>((1 - <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum307">getProlepticYear</a>()) - YEARS_DIFFERENCE));</pre></td>
+<td><pre>                            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum346">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1081">withYear</a>((1 - <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum307">getProlepticYear</a>()) - YEARS_DIFFERENCE));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum333" class="linenum-cell" data-linenum="333" href="#linenum333"></a></td>
@@ -1348,7 +1348,7 @@
 </tr>
 <tr>
 <td><a id="linenum336" class="linenum-cell" data-linenum="336" href="#linenum336"></a></td>
-<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum422">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1045">with</a>(<a class="variable" href="#linenum313">field</a>, <a class="variable" href="#linenum313">newValue</a>));</pre></td>
+<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum346">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1045">with</a>(<a class="variable" href="#linenum313">field</a>, <a class="variable" href="#linenum313">newValue</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum337" class="linenum-cell" data-linenum="337" href="#linenum337"></a></td>
@@ -1500,7 +1500,7 @@
 </tr>
 <tr>
 <td><a id="linenum374" class="linenum-cell" data-linenum="374" href="#linenum374"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum422">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1296">plusYears</a>(<a class="variable" href="#linenum373">years</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum346">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1296">plusYears</a>(<a class="variable" href="#linenum373">years</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum375" class="linenum-cell" data-linenum="375" href="#linenum375"></a></td>
@@ -1520,7 +1520,7 @@
 </tr>
 <tr>
 <td><a id="linenum379" class="linenum-cell" data-linenum="379" href="#linenum379"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum422">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1324">plusMonths</a>(<a class="variable" href="#linenum378">months</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum346">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1324">plusMonths</a>(<a class="variable" href="#linenum378">months</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum380" class="linenum-cell" data-linenum="380" href="#linenum380"></a></td>
@@ -1560,7 +1560,7 @@
 </tr>
 <tr>
 <td><a id="linenum389" class="linenum-cell" data-linenum="389" href="#linenum389"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum422">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1369">plusDays</a>(<a class="variable" href="#linenum388">days</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ThaiBuddhistDate.html#linenum346">with</a>(<a class="variable" href="#linenum214">isoDate</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalDate.html#linenum1369">plusDays</a>(<a class="variable" href="#linenum388">days</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum390" class="linenum-cell" data-linenum="390" href="#linenum390"></a></td>

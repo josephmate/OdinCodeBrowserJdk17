@@ -744,7 +744,7 @@
 </tr>
 <tr>
 <td><a id="linenum185" class="linenum-cell" data-linenum="185" href="#linenum185"></a></td>
-<td><pre>            byte[] b = new byte[Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1707">min</a>(<a class="variable" href="#linenum165">buffer</a>.remaining(), 4096)];</pre></td>
+<td><pre>            byte[] b = new byte[Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1647">min</a>(<a class="variable" href="#linenum165">buffer</a>.remaining(), 4096)];</pre></td>
 </tr>
 <tr>
 <td><a id="linenum186" class="linenum-cell" data-linenum="186" href="#linenum186"></a></td>
@@ -752,7 +752,7 @@
 </tr>
 <tr>
 <td><a id="linenum187" class="linenum-cell" data-linenum="187" href="#linenum187"></a></td>
-<td><pre>                int length = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1707">min</a>(<a class="variable" href="#linenum165">buffer</a>.remaining(), <a class="variable" href="#linenum185">b</a>.length);</pre></td>
+<td><pre>                int length = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1647">min</a>(<a class="variable" href="#linenum165">buffer</a>.remaining(), <a class="variable" href="#linenum185">b</a>.length);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum188" class="linenum-cell" data-linenum="188" href="#linenum188"></a></td>
@@ -760,7 +760,7 @@
 </tr>
 <tr>
 <td><a id="linenum189" class="linenum-cell" data-linenum="189" href="#linenum189"></a></td>
-<td><pre>                <a class="type" href="/OdinCodeBrowserJdk17/java/util/zip/CRC32C.html#linenum164">update</a>(<a class="variable" href="#linenum185">b</a>, 0, <a class="variable" href="#linenum187">length</a>);</pre></td>
+<td><pre>                <a class="type" href="/OdinCodeBrowserJdk17/java/util/zip/CRC32C.html#linenum146">update</a>(<a class="variable" href="#linenum185">b</a>, 0, <a class="variable" href="#linenum187">length</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum190" class="linenum-cell" data-linenum="190" href="#linenum190"></a></td>
@@ -956,11 +956,11 @@
 </tr>
 <tr>
 <td><a id="linenum238" class="linenum-cell" data-linenum="238" href="#linenum238"></a></td>
-<td><pre>                    <a class="variable" href="#linenum234">firstHalf</a> = <a class="variable" href="#linenum65">UNSAFE</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/misc/Unsafe.html#linenum362">getInt</a>(<a class="variable" href="#linenum215">b</a>, (long)Unsafe.ARRAY_BYTE_BASE_OFFSET + <a class="variable" href="#linenum215">off</a>);</pre></td>
+<td><pre>                    <a class="variable" href="#linenum234">firstHalf</a> = <a class="variable" href="#linenum65">UNSAFE</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/misc/Unsafe.html#linenum154">getInt</a>(<a class="variable" href="#linenum215">b</a>, (long)Unsafe.ARRAY_BYTE_BASE_OFFSET + <a class="variable" href="#linenum215">off</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum239" class="linenum-cell" data-linenum="239" href="#linenum239"></a></td>
-<td><pre>                    <a class="variable" href="#linenum235">secondHalf</a> = <a class="variable" href="#linenum65">UNSAFE</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/misc/Unsafe.html#linenum362">getInt</a>(<a class="variable" href="#linenum215">b</a>, (long)Unsafe.ARRAY_BYTE_BASE_OFFSET + <a class="variable" href="#linenum215">off</a></pre></td>
+<td><pre>                    <a class="variable" href="#linenum235">secondHalf</a> = <a class="variable" href="#linenum65">UNSAFE</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/misc/Unsafe.html#linenum154">getInt</a>(<a class="variable" href="#linenum215">b</a>, (long)Unsafe.ARRAY_BYTE_BASE_OFFSET + <a class="variable" href="#linenum215">off</a></pre></td>
 </tr>
 <tr>
 <td><a id="linenum240" class="linenum-cell" data-linenum="240" href="#linenum240"></a></td>
@@ -972,7 +972,7 @@
 </tr>
 <tr>
 <td><a id="linenum242" class="linenum-cell" data-linenum="242" href="#linenum242"></a></td>
-<td><pre>                    long value = <a class="variable" href="#linenum65">UNSAFE</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/misc/Unsafe.html#linenum374">getLong</a>(<a class="variable" href="#linenum215">b</a>, (long)Unsafe.ARRAY_BYTE_BASE_OFFSET + <a class="variable" href="#linenum215">off</a>);</pre></td>
+<td><pre>                    long value = <a class="variable" href="#linenum65">UNSAFE</a>.<a class="type" href="/OdinCodeBrowserJdk17/jdk/internal/misc/Unsafe.html#linenum233">getLong</a>(<a class="variable" href="#linenum215">b</a>, (long)Unsafe.ARRAY_BYTE_BASE_OFFSET + <a class="variable" href="#linenum215">off</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum243" class="linenum-cell" data-linenum="243" href="#linenum243"></a></td>

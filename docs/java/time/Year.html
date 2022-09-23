@@ -720,7 +720,7 @@
 </tr>
 <tr>
 <td><a id="linenum179" class="linenum-cell" data-linenum="179" href="#linenum179"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum208">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum184">systemDefaultZone</a>());</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum194">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum184">systemDefaultZone</a>());</pre></td>
 </tr>
 <tr>
 <td><a id="linenum180" class="linenum-cell" data-linenum="180" href="#linenum180"></a></td>
@@ -784,7 +784,7 @@
 </tr>
 <tr>
 <td><a id="linenum195" class="linenum-cell" data-linenum="195" href="#linenum195"></a></td>
-<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum208">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum203">system</a>(<a class="variable" href="#linenum194">zone</a>));</pre></td>
+<td><pre>        return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum194">now</a>(Clock.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Clock.html#linenum203">system</a>(<a class="variable" href="#linenum194">zone</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum196" class="linenum-cell" data-linenum="196" href="#linenum196"></a></td>
@@ -1756,7 +1756,7 @@
 </tr>
 <tr>
 <td><a id="linenum438" class="linenum-cell" data-linenum="438" href="#linenum438"></a></td>
-<td><pre>            return (<a class="variable" href="#linenum327">year</a> &lt;= 0 ? ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum170">of</a>(1, <a class="variable" href="#linenum146">MAX_VALUE</a> + 1) : ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum170">of</a>(1, <a class="variable" href="#linenum146">MAX_VALUE</a>));</pre></td>
+<td><pre>            return (<a class="variable" href="#linenum327">year</a> &lt;= 0 ? ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum126">of</a>(1, <a class="variable" href="#linenum146">MAX_VALUE</a> + 1) : ValueRange.<a class="type" href="/OdinCodeBrowserJdk17/java/time/temporal/ValueRange.html#linenum126">of</a>(1, <a class="variable" href="#linenum146">MAX_VALUE</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum439" class="linenum-cell" data-linenum="439" href="#linenum439"></a></td>
@@ -2124,7 +2124,7 @@
 </tr>
 <tr>
 <td><a id="linenum530" class="linenum-cell" data-linenum="530" href="#linenum530"></a></td>
-<td><pre>        return Year.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum529">isLeap</a>(<a class="variable" href="#linenum327">year</a>);</pre></td>
+<td><pre>        return Year.<a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum317">isLeap</a>(<a class="variable" href="#linenum327">year</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum531" class="linenum-cell" data-linenum="531" href="#linenum531"></a></td>
@@ -2856,19 +2856,19 @@
 </tr>
 <tr>
 <td><a id="linenum713" class="linenum-cell" data-linenum="713" href="#linenum713"></a></td>
-<td><pre>                case DECADES: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum732">plusYears</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum709">amountToAdd</a>, 10));</pre></td>
+<td><pre>                case DECADES: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum732">plusYears</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum709">amountToAdd</a>, 10));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum714" class="linenum-cell" data-linenum="714" href="#linenum714"></a></td>
-<td><pre>                case CENTURIES: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum732">plusYears</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum709">amountToAdd</a>, 100));</pre></td>
+<td><pre>                case CENTURIES: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum732">plusYears</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum709">amountToAdd</a>, 100));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum715" class="linenum-cell" data-linenum="715" href="#linenum715"></a></td>
-<td><pre>                case MILLENNIA: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum732">plusYears</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum709">amountToAdd</a>, 1000));</pre></td>
+<td><pre>                case MILLENNIA: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum732">plusYears</a>(Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum709">amountToAdd</a>, 1000));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum716" class="linenum-cell" data-linenum="716" href="#linenum716"></a></td>
-<td><pre>                case ERAS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum620">with</a>(ERA, Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum497">getLong</a>(ERA), <a class="variable" href="#linenum709">amountToAdd</a>));</pre></td>
+<td><pre>                case ERAS: return <a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum620">with</a>(ERA, Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="type" href="/OdinCodeBrowserJdk17/java/time/Year.html#linenum497">getLong</a>(ERA), <a class="variable" href="#linenum709">amountToAdd</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum717" class="linenum-cell" data-linenum="717" href="#linenum717"></a></td>
@@ -3984,7 +3984,7 @@
 </tr>
 <tr>
 <td><a id="linenum995" class="linenum-cell" data-linenum="995" href="#linenum995"></a></td>
-<td><pre>        return YearMonth.<a class="type" href="/OdinCodeBrowserJdk17/java/time/YearMonth.html#linenum227">of</a>(<a class="variable" href="#linenum327">year</a>, <a class="variable" href="#linenum994">month</a>);</pre></td>
+<td><pre>        return YearMonth.<a class="type" href="/OdinCodeBrowserJdk17/java/time/YearMonth.html#linenum214">of</a>(<a class="variable" href="#linenum327">year</a>, <a class="variable" href="#linenum994">month</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum996" class="linenum-cell" data-linenum="996" href="#linenum996"></a></td>
@@ -4348,7 +4348,7 @@
 </tr>
 <tr>
 <td><a id="linenum1086" class="linenum-cell" data-linenum="1086" href="#linenum1086"></a></td>
-<td><pre>        return Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum1195">toString</a>(<a class="variable" href="#linenum327">year</a>);</pre></td>
+<td><pre>        return Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum452">toString</a>(<a class="variable" href="#linenum327">year</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1087" class="linenum-cell" data-linenum="1087" href="#linenum1087"></a></td>

@@ -820,11 +820,11 @@
 </tr>
 <tr>
 <td><a id="linenum204" class="linenum-cell" data-linenum="204" href="#linenum204"></a></td>
-<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum331">requireNonNull</a>(<a class="variable" href="#linenum174">date</a>, <span class='string'>&quot;date&quot;</span>);</pre></td>
+<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum231">requireNonNull</a>(<a class="variable" href="#linenum174">date</a>, <span class='string'>&quot;date&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum205" class="linenum-cell" data-linenum="205" href="#linenum205"></a></td>
-<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum331">requireNonNull</a>(<a class="variable" href="#linenum174">time</a>, <span class='string'>&quot;time&quot;</span>);</pre></td>
+<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum231">requireNonNull</a>(<a class="variable" href="#linenum174">time</a>, <span class='string'>&quot;time&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum206" class="linenum-cell" data-linenum="206" href="#linenum206"></a></td>
@@ -1120,7 +1120,7 @@
 </tr>
 <tr>
 <td><a id="linenum279" class="linenum-cell" data-linenum="279" href="#linenum279"></a></td>
-<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ChronoLocalDateTimeImpl.html#linenum218">with</a>(<a class="variable" href="#linenum203">date</a>, (<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalTime.html#linenum125">LocalTime</a>) <a class="variable" href="#linenum274">adjuster</a>);</pre></td>
+<td><pre>            return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ChronoLocalDateTimeImpl.html#linenum286">with</a>(<a class="variable" href="#linenum203">date</a>, (<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalTime.html#linenum125">LocalTime</a>) <a class="variable" href="#linenum274">adjuster</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum280" class="linenum-cell" data-linenum="280" href="#linenum280"></a></td>
@@ -1164,7 +1164,7 @@
 </tr>
 <tr>
 <td><a id="linenum290" class="linenum-cell" data-linenum="290" href="#linenum290"></a></td>
-<td><pre>                return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ChronoLocalDateTimeImpl.html#linenum218">with</a>(<a class="variable" href="#linenum203">date</a>, <a class="variable" href="#linenum203">time</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalTime.html#linenum856">with</a>(<a class="variable" href="#linenum287">field</a>, <a class="variable" href="#linenum287">newValue</a>));</pre></td>
+<td><pre>                return <a class="type" href="/OdinCodeBrowserJdk17/java/time/chrono/ChronoLocalDateTimeImpl.html#linenum286">with</a>(<a class="variable" href="#linenum203">date</a>, <a class="variable" href="#linenum203">time</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalTime.html#linenum856">with</a>(<a class="variable" href="#linenum287">field</a>, <a class="variable" href="#linenum287">newValue</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum291" class="linenum-cell" data-linenum="291" href="#linenum291"></a></td>
@@ -1412,11 +1412,11 @@
 </tr>
 <tr>
 <td><a id="linenum352" class="linenum-cell" data-linenum="352" href="#linenum352"></a></td>
-<td><pre>        <a class="variable" href="#linenum342">totDays</a> += Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1287">floorDiv</a>(<a class="variable" href="#linenum346">totNanos</a>, <a class="variable" href="#linenum155">NANOS_PER_DAY</a>);</pre></td>
+<td><pre>        <a class="variable" href="#linenum342">totDays</a> += Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1224">floorDiv</a>(<a class="variable" href="#linenum346">totNanos</a>, <a class="variable" href="#linenum155">NANOS_PER_DAY</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum353" class="linenum-cell" data-linenum="353" href="#linenum353"></a></td>
-<td><pre>        long newNoD = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1399">floorMod</a>(<a class="variable" href="#linenum346">totNanos</a>, <a class="variable" href="#linenum155">NANOS_PER_DAY</a>);</pre></td>
+<td><pre>        long newNoD = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1341">floorMod</a>(<a class="variable" href="#linenum346">totNanos</a>, <a class="variable" href="#linenum155">NANOS_PER_DAY</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum354" class="linenum-cell" data-linenum="354" href="#linenum354"></a></td>
@@ -1500,31 +1500,31 @@
 </tr>
 <tr>
 <td><a id="linenum374" class="linenum-cell" data-linenum="374" href="#linenum374"></a></td>
-<td><pre>                    case NANOS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum155">NANOS_PER_DAY</a>); break;</pre></td>
+<td><pre>                    case NANOS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum155">NANOS_PER_DAY</a>); break;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum375" class="linenum-cell" data-linenum="375" href="#linenum375"></a></td>
-<td><pre>                    case MICROS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum139">MICROS_PER_DAY</a>); break;</pre></td>
+<td><pre>                    case MICROS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum139">MICROS_PER_DAY</a>); break;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum376" class="linenum-cell" data-linenum="376" href="#linenum376"></a></td>
-<td><pre>                    case MILLIS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum135">MILLIS_PER_DAY</a>); break;</pre></td>
+<td><pre>                    case MILLIS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum135">MILLIS_PER_DAY</a>); break;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum377" class="linenum-cell" data-linenum="377" href="#linenum377"></a></td>
-<td><pre>                    case SECONDS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum131">SECONDS_PER_DAY</a>); break;</pre></td>
+<td><pre>                    case SECONDS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum131">SECONDS_PER_DAY</a>); break;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum378" class="linenum-cell" data-linenum="378" href="#linenum378"></a></td>
-<td><pre>                    case MINUTES: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum119">MINUTES_PER_DAY</a>); break;</pre></td>
+<td><pre>                    case MINUTES: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum119">MINUTES_PER_DAY</a>); break;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum379" class="linenum-cell" data-linenum="379" href="#linenum379"></a></td>
-<td><pre>                    case HOURS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum111">HOURS_PER_DAY</a>); break;</pre></td>
+<td><pre>                    case HOURS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum111">HOURS_PER_DAY</a>); break;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum380" class="linenum-cell" data-linenum="380" href="#linenum380"></a></td>
-<td><pre>                    case HALF_DAYS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum993">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, 2); break;</pre></td>
+<td><pre>                    case HALF_DAYS: <a class="variable" href="#linenum372">amount</a> = Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum960">multiplyExact</a>(<a class="variable" href="#linenum372">amount</a>, 2); break;</pre></td>
 </tr>
 <tr>
 <td><a id="linenum381" class="linenum-cell" data-linenum="381" href="#linenum381"></a></td>
@@ -1532,7 +1532,7 @@
 </tr>
 <tr>
 <td><a id="linenum382" class="linenum-cell" data-linenum="382" href="#linenum382"></a></td>
-<td><pre>                return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum898">addExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum203">time</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalTime.html#linenum1406">until</a>(<a class="variable" href="#linenum369">end</a>.toLocalTime(), <a class="variable" href="#linenum366">unit</a>));</pre></td>
+<td><pre>                return Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum878">addExact</a>(<a class="variable" href="#linenum372">amount</a>, <a class="variable" href="#linenum203">time</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/time/LocalTime.html#linenum1406">until</a>(<a class="variable" href="#linenum369">end</a>.toLocalTime(), <a class="variable" href="#linenum366">unit</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum383" class="linenum-cell" data-linenum="383" href="#linenum383"></a></td>

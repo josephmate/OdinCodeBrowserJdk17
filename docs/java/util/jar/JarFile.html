@@ -720,7 +720,7 @@
 </tr>
 <tr>
 <td><a id="linenum179" class="linenum-cell" data-linenum="179" href="#linenum179"></a></td>
-<td><pre>        <a class="variable" href="#linenum148">BASE_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum1195">toString</a>(8));</pre></td>
+<td><pre>        <a class="variable" href="#linenum148">BASE_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum452">toString</a>(8));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum180" class="linenum-cell" data-linenum="180" href="#linenum180"></a></td>
@@ -728,7 +728,7 @@
 </tr>
 <tr>
 <td><a id="linenum181" class="linenum-cell" data-linenum="181" href="#linenum181"></a></td>
-<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> jarVersion = GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/action/GetPropertyAction.html#linenum126">privilegedGetProperty</a>(<span class='string'>&quot;jdk.util.jar.version&quot;</span>);</pre></td>
+<td><pre>        <a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum140">String</a> jarVersion = GetPropertyAction.<a class="type" href="/OdinCodeBrowserJdk17/sun/security/action/GetPropertyAction.html#linenum103">privilegedGetProperty</a>(<span class='string'>&quot;jdk.util.jar.version&quot;</span>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum182" class="linenum-cell" data-linenum="182" href="#linenum182"></a></td>
@@ -752,7 +752,7 @@
 </tr>
 <tr>
 <td><a id="linenum187" class="linenum-cell" data-linenum="187" href="#linenum187"></a></td>
-<td><pre>                    : Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1624">max</a>(<a class="variable" href="#linenum184">jarVer</a>, <a class="variable" href="#linenum149">BASE_VERSION_FEATURE</a>);</pre></td>
+<td><pre>                    : Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1560">max</a>(<a class="variable" href="#linenum184">jarVer</a>, <a class="variable" href="#linenum149">BASE_VERSION_FEATURE</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum188" class="linenum-cell" data-linenum="188" href="#linenum188"></a></td>
@@ -760,7 +760,7 @@
 </tr>
 <tr>
 <td><a id="linenum189" class="linenum-cell" data-linenum="189" href="#linenum189"></a></td>
-<td><pre>        <a class="variable" href="#linenum150">RUNTIME_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum1195">toString</a>(<a class="variable" href="#linenum182">runtimeVersion</a>));</pre></td>
+<td><pre>        <a class="variable" href="#linenum150">RUNTIME_VERSION</a> = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum452">toString</a>(<a class="variable" href="#linenum182">runtimeVersion</a>));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum190" class="linenum-cell" data-linenum="190" href="#linenum190"></a></td>
@@ -1400,7 +1400,7 @@
 </tr>
 <tr>
 <td><a id="linenum349" class="linenum-cell" data-linenum="349" href="#linenum349"></a></td>
-<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum331">requireNonNull</a>(<a class="variable" href="#linenum162">version</a>);</pre></td>
+<td><pre>        Objects.<a class="type" href="/OdinCodeBrowserJdk17/java/util/Objects.html#linenum206">requireNonNull</a>(<a class="variable" href="#linenum162">version</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum350" class="linenum-cell" data-linenum="350" href="#linenum350"></a></td>
@@ -1436,7 +1436,7 @@
 </tr>
 <tr>
 <td><a id="linenum358" class="linenum-cell" data-linenum="358" href="#linenum358"></a></td>
-<td><pre>            this.version = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum1195">toString</a>(<a class="variable" href="#linenum162">version</a>.feature()));</pre></td>
+<td><pre>            this.version = Runtime.Version.parse(Integer.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Integer.html#linenum452">toString</a>(<a class="variable" href="#linenum162">version</a>.feature()));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum359" class="linenum-cell" data-linenum="359" href="#linenum359"></a></td>
@@ -2340,7 +2340,7 @@
 </tr>
 <tr>
 <td><a id="linenum584" class="linenum-cell" data-linenum="584" href="#linenum584"></a></td>
-<td><pre>            int index = <a class="variable" href="#linenum581">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2546">indexOf</a>('/', <a class="variable" href="#linenum583">off</a>);</pre></td>
+<td><pre>            int index = <a class="variable" href="#linenum581">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2417">indexOf</a>('/', <a class="variable" href="#linenum583">off</a>);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum585" class="linenum-cell" data-linenum="585" href="#linenum585"></a></td>
@@ -2388,7 +2388,7 @@
 </tr>
 <tr>
 <td><a id="linenum596" class="linenum-cell" data-linenum="596" href="#linenum596"></a></td>
-<td><pre>            return <a class="variable" href="#linenum581">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2702">substring</a>(<a class="variable" href="#linenum584">index</a> + 1);</pre></td>
+<td><pre>            return <a class="variable" href="#linenum581">name</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/String.html#linenum2676">substring</a>(<a class="variable" href="#linenum584">index</a> + 1);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum597" class="linenum-cell" data-linenum="597" href="#linenum597"></a></td>
@@ -3900,7 +3900,7 @@
 </tr>
 <tr>
 <td><a id="linenum974" class="linenum-cell" data-linenum="974" href="#linenum974"></a></td>
-<td><pre>                        <a class="variable" href="#linenum963">i</a> += Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1624">max</a>(<a class="variable" href="#linenum966">j</a> + 1 - <a class="variable" href="#linenum973">badShift</a>, <a class="variable" href="#linenum960">optoSft</a>[<a class="variable" href="#linenum966">j</a>]);</pre></td>
+<td><pre>                        <a class="variable" href="#linenum963">i</a> += Math.<a class="type" href="/OdinCodeBrowserJdk17/java/lang/Math.html#linenum1560">max</a>(<a class="variable" href="#linenum966">j</a> + 1 - <a class="variable" href="#linenum973">badShift</a>, <a class="variable" href="#linenum960">optoSft</a>[<a class="variable" href="#linenum966">j</a>]);</pre></td>
 </tr>
 <tr>
 <td><a id="linenum975" class="linenum-cell" data-linenum="975" href="#linenum975"></a></td>
@@ -4056,7 +4056,7 @@
 </tr>
 <tr>
 <td><a id="linenum1013" class="linenum-cell" data-linenum="1013" href="#linenum1013"></a></td>
-<td><pre>                        <a class="variable" href="#linenum1012">attr</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/util/jar/Attributes.html#linenum367">read</a>(new <a class="type" href="/OdinCodeBrowserJdk17/java/util/jar/Manifest.html#linenum51">Manifest</a>.FastInputStream(</pre></td>
+<td><pre>                        <a class="variable" href="#linenum1012">attr</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/util/jar/Attributes.html#linenum363">read</a>(new <a class="type" href="/OdinCodeBrowserJdk17/java/util/jar/Manifest.html#linenum51">Manifest</a>.FastInputStream(</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1014" class="linenum-cell" data-linenum="1014" href="#linenum1014"></a></td>
@@ -4068,7 +4068,7 @@
 </tr>
 <tr>
 <td><a id="linenum1016" class="linenum-cell" data-linenum="1016" href="#linenum1016"></a></td>
-<td><pre>                            <a class="variable" href="#linenum1012">attr</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/util/jar/Attributes.html#linenum139">getValue</a>(Attributes.Name.MULTI_RELEASE));</pre></td>
+<td><pre>                            <a class="variable" href="#linenum1012">attr</a>.<a class="type" href="/OdinCodeBrowserJdk17/java/util/jar/Attributes.html#linenum122">getValue</a>(Attributes.Name.MULTI_RELEASE));</pre></td>
 </tr>
 <tr>
 <td><a id="linenum1017" class="linenum-cell" data-linenum="1017" href="#linenum1017"></a></td>
